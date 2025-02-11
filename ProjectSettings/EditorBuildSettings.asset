@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Caverna/CavernaNivel1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Caverna/CavernaNivel2.unity
+    guid: 98cda06551e4f3940befe7301cbfbec5
+  - enabled: 1
+    path: Assets/Scenes/Caverna/CavernaNivel3.unity
+    guid: e15a30ee3d7db9344bc166ec61138310
+  - enabled: 1
+    path: Assets/Scenes/Caverna/CavernaNivel4.unity
+    guid: f225533f45bd37d419b355e59e8a0e0c
+  m_configObjects: {}

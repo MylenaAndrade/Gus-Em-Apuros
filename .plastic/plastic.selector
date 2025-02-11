@@ -1,0 +1,4 @@
+repository "Gus em Apuros@gamylena@cloud"
+  path "/"
+    br "/main"
+    co "/main"

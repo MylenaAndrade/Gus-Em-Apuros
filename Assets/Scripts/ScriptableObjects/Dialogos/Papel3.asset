@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f813ff51bffd844adacf73382104ef, type: 3}
+  m_Name: Papel3
+  m_EditorClassIdentifier: 
+  _falasDialogo:
+  - _identificador: "[Two]: Diferente da porta l\xF3gica AND/E a porta l\xF3gica
+      OR/OU s\xF3 h\xE1 uma \xFAnica forma da sa\xEDda ser FALSA"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Diferente da porta l\xF3gica AND/E a porta l\xF3gica OR/OU s\xF3 h\xE1
+      uma \xFAnica forma da sa\xEDda ser FALSA"
+  - _identificador: '[Two]: Se ambas as entradas forem FALSAS'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Se ambas as entradas forem FALSAS

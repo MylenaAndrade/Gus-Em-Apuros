@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f813ff51bffd844adacf73382104ef, type: 3}
+  m_Name: Placa
+  m_EditorClassIdentifier: 
+  _falasDialogo:
+  - _identificador: "[Two]: No computador \xE9 usado o sistema bin\xE1rio onde se
+      utiliza apenas duas bases o 0 e o 1."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "No computador \xE9 usado o sistema bin\xE1rio onde se utiliza apenas
+      duas bases o 0 e o 1."
+  - _identificador: "[Two]: Desde imagem a texto, tudo \xE9 convertido para o sistema
+      bin\xE1rio."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Desde imagem a texto, tudo \xE9 convertido para o sistema bin\xE1rio."
+  - _identificador: "[Two]: Os n\xFAmeros 0 e 1 tamb\xE9m s\xE3o utilizado para o
+      que chamamos de \xE1lgebra booleana."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Os n\xFAmeros 0 e 1 tamb\xE9m s\xE3o utilizado para o que chamamos de
+      \xE1lgebra booleana."
+  - _identificador: '[Two]: Onde o 0 assume o valor FALSO e o 1 o valor VERDADEIRO.'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Onde o 0 assume o valor FALSO e o 1 o valor VERDADEIRO.
+  - _identificador: "[Two]: Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."

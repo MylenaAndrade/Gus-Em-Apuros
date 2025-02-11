@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f813ff51bffd844adacf73382104ef, type: 3}
+  m_Name: Papel2
+  m_EditorClassIdentifier: 
+  _falasDialogo:
+  - _identificador: "[Two]: Vamos entender do que se trata as Portas L\xF3gicas"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Vamos entender do que se trata as Portas L\xF3gicas"
+  - _identificador: "[Two]: Portas l\xF3gicas s\xE3o como pequenos ajudantes eletr\xF4nicos
+      que tomam decis\xF5es simples com base em regras"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Portas l\xF3gicas s\xE3o como pequenos ajudantes eletr\xF4nicos que
+      tomam decis\xF5es simples com base em regras"
+  - _identificador: '[Two]: Elas recebem entradas como "verdadeiro" ou "falso" '
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: 'Elas recebem entradas como "verdadeiro" ou "falso" '
+  - _identificador: "[Two]: E produzem uma sa\xEDda tamb\xE9m como \"verdadeiro\"
+      ou \"falso\""
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "E produzem uma sa\xEDda tamb\xE9m como \"verdadeiro\" ou \"falso\""
+  - _identificador: "[Two]: Existem 3 tipos diferentes de portas l\xF3gicas. A porta
+      AND/E, a OR/OU e a NOT/N\xE3o"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Existem 3 tipos diferentes de portas l\xF3gicas. A porta AND/E, a OR/OU
+      e a NOT/N\xE3o"
+  - _identificador: '[Two]: Mas iremos abordar apenas a porta AND/E e a OR/OU'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Mas iremos abordar apenas a porta AND/E e a OR/OU
+  - _identificador: "[Two]: A primeira porta que ser\xE1 apresentada ser\xE1 a porta
+      AND/E"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "A primeira porta que ser\xE1 apresentada ser\xE1 a porta AND/E"
+  - _identificador: "[Two]: Para que a sa\xEDda dessa porta seja verdadeira todas
+      as entradas devem ser verdadeiras"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Para que a sa\xEDda dessa porta seja verdadeira todas as entradas devem
+      ser verdadeiras"
+  - _identificador: "[Two]: Caso contr\xE1rio, a sa\xEDda ser\xE1 falsa"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Caso contr\xE1rio, a sa\xEDda ser\xE1 falsa"
