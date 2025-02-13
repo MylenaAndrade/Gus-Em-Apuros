@@ -5,12 +5,5 @@ using UnityEngine;
 
 public class Estante : MonoBehaviour
 {
-    const int slotCount = 5; // Número de slots por prateleira
 
-    void Start()
-    {
-        
-    }
-
-   
 }

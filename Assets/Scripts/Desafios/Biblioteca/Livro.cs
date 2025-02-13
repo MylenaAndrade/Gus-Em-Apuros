@@ -7,12 +7,17 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 {
     private Vector3 originalPosition;  // Guarda a posição inicial do livro
     private Transform originalShelf;   // Guarda a prateleira original
-    public string bookTag;             // Tag do livro para validação
+    
+    private Estante estante; // Referência à prateleira
 
-    public int maxBooksPerShelf = 5;   // Limite de livros por prateleira
+    private void Start()
+    {
+        PodeSerArrastado(); // Se não for o último, bloqueia o arrasto
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+       
         originalPosition = transform.position; // Salva a posição inicial do livro
         originalShelf = transform.parent;     // Salva a prateleira original
         transform.SetParent(transform.root);  // Remove da prateleira temporariamente
@@ -25,55 +30,7 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        GameObject target = eventData.pointerCurrentRaycast.gameObject; // Objeto onde o livro foi solto
-
-        if (target != null && target.CompareTag("Shelf"))  // Verifica se o alvo é uma prateleira válida
-        {
-            Transform shelf = target.transform;
-
-            // Verifica se a prateleira tem espaço e se a tag corresponde
-            if (CanPlaceOnShelf(shelf))
-            {
-                transform.SetParent(shelf);  // Define a nova prateleira como pai
-                AdjustBookPosition(shelf);   // Ajusta a posição visual na prateleira
-            }
-            else
-            {
-                ReturnToOriginalPosition();  // Retorna à prateleira original
-            }
-        }
-        else
-        {
-            ReturnToOriginalPosition();  // Se não soltou em uma prateleira, volta ao local original
-        }
-    }
-
-    private bool CanPlaceOnShelf(Transform shelf)
-    {
-        int bookCount = shelf.childCount; // Conta quantos livros já estão na prateleira
-        
-        if (bookCount >= maxBooksPerShelf) // Verifica se há espaço na prateleira
-        {
-            return false;
-        }
-
-        // Obtém o último livro na prateleira
-        Transform lastBook = shelf.childCount > 0 ? shelf.GetChild(shelf.childCount - 1) : null;
-        if (lastBook != null)
-        {
-            Livro lastBookScript = lastBook.GetComponent<Livro>();
-            if (lastBookScript != null && lastBookScript.bookTag != this.bookTag)
-            {
-                return false; // Só permite adicionar se a Tag for igual
-            }
-        }
-
-        return true;
-    }
-
-    private void AdjustBookPosition(Transform shelf)
-    {
-        transform.position = shelf.position + new Vector3(0, -shelf.childCount * 0.3f, 0);
+        ReturnToOriginalPosition();  // Se não soltou em uma prateleira, volta ao local original
     }
 
     private void ReturnToOriginalPosition()
@@ -81,4 +38,17 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         transform.SetParent(originalShelf);
         transform.position = originalPosition; // Retorna à posição original
     }
+
+    private void PodeSerArrastado()
+    {
+        if (transform.GetSiblingIndex() == transform.parent.childCount - 1)
+        {
+            GetComponent<CanvasGroup>().blocksRaycasts = true; // Se for o último, permite arrastar
+        }
+        else
+        {
+            GetComponent<CanvasGroup>().blocksRaycasts = false; // Se não for o último, bloqueia o arrasto
+        }
+    }
+    
 }
