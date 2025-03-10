@@ -14,12 +14,15 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     private static Livro _instancia;
 
+    private void Update()
+    {
+        PodeSerArrastado();
+    }
 
     private void Start()
     {
         gameObject.GetComponent<Collider2D>().enabled = false; // Desabilita o collider
         SetEstantePai(transform.parent);     // Salva a prateleira original
-        originalPosition = transform.position; // Salva a posição inicial do livro
         PodeSerArrastado(); // Se não for o último, bloqueia o arrasto
     }
 
@@ -27,7 +30,7 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
     public void OnBeginDrag(PointerEventData eventData)
     {
         gameObject.GetComponent<Collider2D>().enabled = true; // Habilita o collider
-        transform.SetParent(transform.root);  // Remove da prateleira temporariamente
+       // transform.SetParent(transform.root);  // Remove da prateleira temporariamente
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -48,10 +51,9 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
         
     }
 
-    private void ReturnToOriginalPosition()
+    public void ReturnToOriginalPosition()
     {
         transform.SetParent(GetEstantePai());
-        transform.position = originalPosition; // Retorna à posição original
     }
 
     private void PodeSerArrastado()
@@ -78,22 +80,17 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public void MudandoDeEstante(GameObject gameObjectLivroEstante, GameObject gameObjectFlutuante)
     {
-        Debug.Log($"O 1 livro é {gameObjectFlutuante.name}");
-        Debug.Log($"O livro é {gameObjectLivroEstante.name}");
         if(gameObjectFlutuante.name == gameObjectLivroEstante.name)
         {
             gameObjectFlutuante.transform.SetParent(gameObjectLivroEstante.transform.parent);
-          //  Vector3 novaPosicao = gameObjectLivroEstante.transform.TransformPoint(new Vector3(2, 0, 0));
-          //  gameObjectFlutuante.transform.position = novaPosicao;
-            Debug.Log($"Filho: {gameObjectFlutuante.transform.parent.name}");
+            SetEstantePai(gameObjectLivroEstante.transform.parent);
 
             PodeSerArrastado();
-            Debug.Log("Os livros são iguais");
-            
+
         }
         else
         {
-            Debug.Log("Os livros são diferentes");
+            ReturnToOriginalPosition();
         }
     }
     
