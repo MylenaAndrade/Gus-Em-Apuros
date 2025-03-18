@@ -80,13 +80,19 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
 
     public void MudandoDeEstante(GameObject gameObjectLivroEstante, GameObject gameObjectFlutuante)
     {
+
+        Debug.Log($"Livro: {gameObjectFlutuante.name} - Estante: {gameObjectLivroEstante.transform.parent.name}");
         if(gameObjectFlutuante.name == gameObjectLivroEstante.name)
         {
             gameObjectFlutuante.transform.SetParent(gameObjectLivroEstante.transform.parent);
             SetEstantePai(gameObjectLivroEstante.transform.parent);
 
-            PodeSerArrastado();
+            //PodeSerArrastado();
 
+        }
+        else if(gameObjectLivroEstante.tag == "Estante" && gameObjectFlutuante.transform.parent.name == "Canvas"){
+            gameObjectFlutuante.transform.SetParent(gameObjectLivroEstante.transform);
+            SetEstantePai(gameObjectLivroEstante.transform);
         }
         else
         {

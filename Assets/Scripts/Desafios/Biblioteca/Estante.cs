@@ -10,21 +10,25 @@ public class Estante : MonoBehaviour
         Livro livro = livroFlutuante.GetComponent<Livro>();
         Debug.Log($"Objeto entrou na área: {livroFlutuante.gameObject.name}");
         // Verifica se a prateleira tem pelo menos um livro
-        if (transform.childCount > 0)
-        {
-            Transform livroNaEstante = transform.GetChild(transform.childCount - 1); // Último livro da estante
+        if (transform.childCount >= 4){
+            Debug.Log("Estante cheia");
+            return;
             
-
+        }else if( transform.childCount > 0)
+        {   
+            Transform livroNaEstante = transform.GetChild(transform.childCount - 1); // Último livro da estante
             if (livro != null)
             {
                 livro.MudandoDeEstante(livroNaEstante.gameObject, livroFlutuante.gameObject);
                 AjustarLayout();
             }
+
         }else
         {
             // Se não há livros na estante, adiciona diretamente
             Debug.Log("Adicionando livro diretamente");
-            livro.transform.SetParent(transform);
+           // livro.transform.SetParent(transform);
+            livro.MudandoDeEstante(gameObject, livroFlutuante.gameObject);
             Debug.Log($"Pai do Livro: {livro.transform.parent.name}");
             
             AjustarLayout();
