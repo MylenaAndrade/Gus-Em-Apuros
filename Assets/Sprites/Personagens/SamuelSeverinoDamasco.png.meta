@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc3d39c1468e065448e692f711b05c53
+guid: 76a57b67a7ab0bc48b192839eda23aa3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: livroVerde_0
+      name: SamuelSeverinoDamasco_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 4
-        width: 4
+        x: 4
+        y: 0
+        width: 9
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a849a3c887dbc424a966e1ba07e858d9
-      internalID: 903841016
+      spriteID: dece87aad9ce47349b48c2a3ecd04d73
+      internalID: 2028668631
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      livroVerde_0: 903841016
+      SamuelSeverinoDamasco_0: 2028668631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

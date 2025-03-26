@@ -2500,6 +2500,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 1246690222}
+  _nomeProximaFase: 
 --- !u!61 &389759336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3587,7 +3588,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.4
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3906,6 +3907,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 1716757379}
+  _nomeProximaFase: 
 --- !u!61 &898425508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4528,6 +4530,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 1924764736}
+  _nomeProximaFase: 
 --- !u!61 &1164980876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4674,6 +4677,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 508456547}
+  _nomeProximaFase: 
 --- !u!61 &1181430530
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10919,6 +10923,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 636202400}
+  _nomeProximaFase: 
 --- !u!61 &1529157852
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12498,6 +12503,7 @@ MonoBehaviour:
   tipoInteracao: 1
   _dialogo: {fileID: 0}
   _gameObject: {fileID: 1448364769}
+  _nomeProximaFase: 
 --- !u!58 &1922927314
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12811,7 +12817,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1801106720}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 2.4
+    OrthographicSize: 4
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

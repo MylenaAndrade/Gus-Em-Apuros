@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc3d39c1468e065448e692f711b05c53
+guid: bcbdbf21e12ffd247a7da347e1086d8d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: livroVerde_0
+      name: balcaoBiblioteca_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 4
-        width: 4
-        height: 10
+        x: 8
+        y: 15
+        width: 39
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a849a3c887dbc424a966e1ba07e858d9
-      internalID: 903841016
+      spriteID: d9d0d969277a8b54aaa905135be0daf4
+      internalID: -378925228
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      livroVerde_0: 903841016
+      balcaoBiblioteca_0: -378925228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

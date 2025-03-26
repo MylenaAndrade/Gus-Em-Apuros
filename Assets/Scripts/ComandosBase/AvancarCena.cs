@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class AvancarCena : MonoBehaviour
+public class AvancarCena
 {
-   [SerializeField]
-   private string _nomeProximaFase;
-
+    public static void IrProximaFase(string nomeProximaFase)
+   {
+       Debug.Log(nomeProximaFase);
+        SceneManager.LoadScene(nomeProximaFase);
+   }
 
 }

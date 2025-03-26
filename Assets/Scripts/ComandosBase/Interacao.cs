@@ -10,7 +10,8 @@ public class Interacao : MonoBehaviour
     {
         Dialogo,
         Desafio,
-        TabelaVerdade
+        TabelaVerdade,
+        Porta
     }
 
     [SerializeField]
@@ -21,6 +22,9 @@ public class Interacao : MonoBehaviour
 
     [SerializeField]
     private GameObject _gameObject;
+    
+    [SerializeField]
+    private string _nomeProximaFase;
 
 
     private void OnMouseDown()
@@ -36,6 +40,9 @@ public class Interacao : MonoBehaviour
                 break;
             case TipoInteracao.TabelaVerdade:
                 ExibirTabelaVerdade();
+                break;
+            case TipoInteracao.Porta:
+                ProximaFase();
                 break;
             
         }
@@ -64,6 +71,14 @@ public class Interacao : MonoBehaviour
         if(_gameObject != null)
         {
             TabelaVerdade.Instancia.Exibir(this._gameObject);
+        }
+    }
+
+    private void ProximaFase()
+    {
+        if (_nomeProximaFase != null)
+        {
+            AvancarCena.IrProximaFase(this._nomeProximaFase);
         }
     }
 }

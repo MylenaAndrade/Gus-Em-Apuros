@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bc3d39c1468e065448e692f711b05c53
+guid: a8dd0ec448ad17145aad71decbf6ad08
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: livroVerde_0
+      name: estanteFixa_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 4
-        width: 4
-        height: 10
+        x: 13
+        y: 2
+        width: 51
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a849a3c887dbc424a966e1ba07e858d9
-      internalID: 903841016
+      spriteID: 56dcb9c0605b6f84ea2fbe51ccaa354e
+      internalID: 716679453
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      livroVerde_0: 903841016
+      estanteFixa_0: 716679453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
