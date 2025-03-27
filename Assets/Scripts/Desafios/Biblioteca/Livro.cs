@@ -87,8 +87,6 @@ public class Livro : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHan
             gameObjectFlutuante.transform.SetParent(gameObjectLivroEstante.transform.parent);
             SetEstantePai(gameObjectLivroEstante.transform.parent);
 
-            //PodeSerArrastado();
-
         }
         else if(gameObjectLivroEstante.tag == "Estante" && gameObjectFlutuante.transform.parent.name == "Canvas"){
             gameObjectFlutuante.transform.SetParent(gameObjectLivroEstante.transform);

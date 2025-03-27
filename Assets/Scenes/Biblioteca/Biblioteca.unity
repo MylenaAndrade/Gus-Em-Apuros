@@ -530,6 +530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroRoxo
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroRoxo
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -802,7 +806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: LivroLaranja
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
@@ -1008,6 +1012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroAmarelo
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroAmarelo
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1114,6 +1122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroRoxo
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroRoxo
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1213,6 +1225,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroRosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroRosa
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -1561,7 +1577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: LivroVerde
       objectReference: {fileID: 0}
     - target: {fileID: 8080748398534677159, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: bookTag
@@ -1858,6 +1874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroLaranja
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroLaranja
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1959,6 +1979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroVerde
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroVerde
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2054,6 +2078,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroRosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroRosa
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -2155,6 +2183,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroRoxo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroRoxo
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -2361,6 +2393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroLaranja
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroLaranja
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2460,6 +2496,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroAmarelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroAmarelo
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -2585,7 +2625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: LivroLaranja
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
@@ -2711,6 +2751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroRosa
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroRosa
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2822,6 +2866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroVerde
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroVerde
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2917,6 +2965,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroRosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroRosa
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -3015,6 +3067,7 @@ GameObject:
   - component: {fileID: 1831177653}
   - component: {fileID: 1831177655}
   - component: {fileID: 1831177656}
+  - component: {fileID: 1831177657}
   m_Layer: 5
   m_Name: Grid
   m_TagString: Untagged
@@ -3154,6 +3207,19 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 20}
   m_Constraint: 1
   m_ConstraintCount: 4
+--- !u!114 &1831177657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831177651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f001fffa5632c14eb9a64831e9776fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeProximaFase: Biblioteca1
 --- !u!224 &1852643953 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4850351269511927937, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -3421,6 +3487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroAmarelo
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroAmarelo
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3530,6 +3600,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Name
+      value: LivroRoxo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
       value: LivroRoxo
       objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
@@ -4027,6 +4101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivroAmarelo
       objectReference: {fileID: 0}
+    - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
+      propertyPath: m_TagString
+      value: LivroAmarelo
+      objectReference: {fileID: 0}
     - target: {fileID: 6718581775148081713, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4280,7 +4358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825979956066154324, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: LivroVerde
       objectReference: {fileID: 0}
     - target: {fileID: 8080748398534677159, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
       propertyPath: bookTag

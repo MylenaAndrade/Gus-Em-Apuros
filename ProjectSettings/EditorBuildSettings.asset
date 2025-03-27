@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Caverna/CavernaNivel4.unity
     guid: f225533f45bd37d419b355e59e8a0e0c
   - enabled: 1
+    path: Assets/Scenes/Biblioteca/Biblioteca1.unity
+    guid: 5ba43430804ae314ebb012022da266e3
+  - enabled: 1
     path: Assets/Scenes/Biblioteca/Biblioteca.unity
     guid: 78e55c237227b794c8580c38be223e78
   m_configObjects: {}

@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Estatua
   - Estante
+  - LivroVerde
+  - LivroRosa
+  - LivroLaranja
+  - LivroRoxo
+  - LivroAmarelo
   layers:
   - Default
   - TransparentFX
