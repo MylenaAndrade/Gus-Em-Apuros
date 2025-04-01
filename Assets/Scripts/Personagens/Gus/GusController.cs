@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-
 public class GusController : MonoBehaviour
 {
     private Rigidbody2D _gusRididibody2D;
     private Animator    _gusAnimator;
     public float        _gusSpeed;
     private Vector2     _gusDirection;
+    
     // Start is called before the first frame update
     void Start()
     {
