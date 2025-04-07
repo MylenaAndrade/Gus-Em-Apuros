@@ -11,6 +11,7 @@ public class GerirResposta : MonoBehaviour
     [SerializeField] private RectTransform modeloBotaoResposta;
     [SerializeField] private RectTransform containerResposta;
     private DialogoUI dialogoUI;
+    private EventoResposta[] eventosResposta;
     List<GameObject> tempBotaoResposta = new List<GameObject>();
 
     private void Start()
@@ -18,17 +19,24 @@ public class GerirResposta : MonoBehaviour
         dialogoUI = GetComponent<DialogoUI>();
     }
 
+    public void AdicionarEventosDeRespostas(EventoResposta[] eventosResposta)
+    {
+        this.eventosResposta = eventosResposta;
+    }
+
     public void MostrarRespostas(Resposta[] respostas){
         float alturaCaixaDeResposta = 0;
         float larguraExtra = 0;
         modeloBotaoResposta.gameObject.SetActive(false);
-        foreach(Resposta resposta in respostas){
+        for(int i = 0; i < respostas.Length; i++){
+            Resposta resposta = respostas[i];
+            int respostaIndex = i;
 
             GameObject botaoResposta = Instantiate(modeloBotaoResposta.gameObject, containerResposta);
             botaoResposta.SetActive(true);
             botaoResposta.GetComponent<TMP_Text>().text = resposta.TextoResposta;
             larguraExtra = (resposta.TextoResposta.Length / 10) * 160;
-            botaoResposta.GetComponent<Button>().onClick.AddListener(() => EscolherResposta(resposta));
+            botaoResposta.GetComponent<Button>().onClick.AddListener(() => RespostaEscolhida(resposta, respostaIndex));
 
             tempBotaoResposta.Add(botaoResposta);
 
@@ -40,13 +48,28 @@ public class GerirResposta : MonoBehaviour
         caixaDeResposta.gameObject.SetActive(true);
     }
 
-    private void EscolherResposta(Resposta resposta){
+    private void RespostaEscolhida(Resposta resposta, int respostaIndex){
         caixaDeResposta.gameObject.SetActive(false);
 
         foreach(GameObject button in tempBotaoResposta){
             Destroy(button);
         }
         tempBotaoResposta.Clear();
-        dialogoUI.MostrarDialogo(resposta.ObjetoDialogo);
+
+        if(eventosResposta != null && respostaIndex <= eventosResposta.Length){
+            eventosResposta[respostaIndex].RespostaEscolhida?.Invoke();
+        }
+
+        eventosResposta = null;
+
+        if(resposta.ObjetoDialogo == null) 
+        {
+            dialogoUI.MostrarDialogo(resposta.ObjetoDialogo);
+        }
+        else
+        {
+            dialogoUI.FecharCaixaDeDialogo();
+        }
+
     }
 }

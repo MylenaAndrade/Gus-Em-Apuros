@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: SSD
+  m_EditorClassIdentifier: 
+  dialogo:
+  - Como assim com quem?
+  - 'Estava falando com o Samuel Severino Damasco '
+  - "O beb\xEA da vov\xF3"
+  - "V\xF3 eu j\xE1 falei que eu n\xE3o sou um beb\xEA, eu j\xE1 tenho 6 anos"
+  - Ta bom SSD, toma aqui um dinheirinho para comprar um sorvete
+  respostas:
+  - textoResposta: "Ele \xE9 meio rapidinho n\xE9?"
+    objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}

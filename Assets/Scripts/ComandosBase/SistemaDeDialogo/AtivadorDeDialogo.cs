@@ -20,7 +20,7 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
         if (other.CompareTag("Player") && other.TryGetComponent(out PersonagemController player))
         {
             if(aperteE != null){
-                objetoArmazenado = Instantiate(aperteE, new Vector2(transform.position.x, transform.position.y + 5), Quaternion.identity);
+                objetoArmazenado = Instantiate(aperteE, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
             }
             
             player.InteracaoD = this;
@@ -44,6 +44,16 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 
     public void Interagir(PersonagemController player)
     {
+        foreach(EventoDialogoResposta eventosResposta in GetComponents<EventoDialogoResposta>())
+        {
+            if (eventosResposta.ObjetoDialogo == objetoDialogo)
+            {
+                player.DialogoUI.AddEvertosDeRespostas(eventosResposta.Eventos);
+                break;
+            }
+        }
+
         player.DialogoUI.MostrarDialogo(objetoDialogo);
+       
     }
 }

@@ -17,9 +17,14 @@ MonoBehaviour:
     _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
     _texto: "Onde ser\xE1 que eu deixei? N\xE3o sei onde coloquei..."
   - _identificador: "[Sra. HD]: Como assim o que? Meus \xF3culos n\xE3o sei onde
-      est\xE1...."
+      est\xE1. "
     _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
-    _texto: "Como assim o que? Meus \xF3culos n\xE3o sei onde est\xE1...."
+    _texto: "Como assim o que? Meus \xF3culos n\xE3o sei onde est\xE1. "
+  - _identificador: "[Sra. HD]: Vamos me ajude a encontrar, voc\xEA sabe muito bem
+      que eu n\xE3o enxergo nada sem eles"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Vamos me ajude a encontrar, voc\xEA sabe muito bem que eu n\xE3o enxergo
+      nada sem eles"
   - _identificador: "[Sra. HD]: Hm? No meu rosto? S\xE9rio?"
     _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
     _texto: "Hm? No meu rosto? S\xE9rio?"

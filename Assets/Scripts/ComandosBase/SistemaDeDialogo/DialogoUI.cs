@@ -27,6 +27,11 @@ public class DialogoUI : MonoBehaviour
         StartCoroutine(EtapasDoDialogo(objetoDialogo));
     }
 
+    public void AddEvertosDeRespostas(EventoResposta[] eventosResposta)
+    {
+        gerirResposta.AdicionarEventosDeRespostas(eventosResposta);
+    }
+
     private IEnumerator EtapasDoDialogo(ObjetoDialogo objetoDialogo)
     {
         for (int i = 0; i < objetoDialogo.Dialogo.Length; i++)
@@ -36,7 +41,7 @@ public class DialogoUI : MonoBehaviour
 
             if (i == objetoDialogo.Dialogo.Length - 1 && objetoDialogo.temResposta) break;
 
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
         if (objetoDialogo.temResposta)
         {
@@ -49,7 +54,7 @@ public class DialogoUI : MonoBehaviour
 
     }
 
-    private void FecharCaixaDeDialogo()
+    public void FecharCaixaDeDialogo()
     {
         estaAberto = false;
         caixaDeDialogo.SetActive(false);
