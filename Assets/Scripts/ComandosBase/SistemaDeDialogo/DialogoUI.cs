@@ -7,6 +7,9 @@ public class DialogoUI : MonoBehaviour
 {
     [SerializeField] private GameObject caixaDeDialogo;
     [SerializeField] private TMP_Text areaDoTexto;
+    [SerializeField] private TimelineController controladorTimeline;
+    [SerializeField] private GameObject gameObjectParaDesligar;
+
     public bool estaAberto { get; private set; }
     private GerirResposta gerirResposta;
 
@@ -27,7 +30,7 @@ public class DialogoUI : MonoBehaviour
         StartCoroutine(EtapasDoDialogo(objetoDialogo));
     }
 
-    public void AddEvertosDeRespostas(EventoResposta[] eventosResposta)
+    public void AdicionarEventosDeRespostas(EventoResposta[] eventosResposta)
     {
         gerirResposta.AdicionarEventosDeRespostas(eventosResposta);
     }
@@ -39,10 +42,33 @@ public class DialogoUI : MonoBehaviour
             string dialogo = objetoDialogo.Dialogo[i];
             yield return efeitoDeEscrita.Rodar(dialogo, areaDoTexto);
 
-            if (i == objetoDialogo.Dialogo.Length - 1 && objetoDialogo.temResposta) break;
-
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+
+            // Se essa fala ativa uma timeline:
+            if (objetoDialogo.IndicesQueAtivamTimeline != null &&
+                System.Array.Exists(objetoDialogo.IndicesQueAtivamTimeline, index => index == i))
+            {
+                // Fecha a caixa imediatamente
+                FecharCaixaDeDialogo();
+
+                bool timelineTerminou = false;
+
+                controladorTimeline.aoTerminarTimeline += () => timelineTerminou = true;
+                controladorTimeline.IniciarTimeline();
+
+                yield return new WaitUntil(() => timelineTerminou);
+
+                // Reabrir a caixa e continuar de onde parou
+                caixaDeDialogo.SetActive(true);
+                estaAberto = true;
+                gameObjectParaDesligar.SetActive(false);
+            }
+
+            // Se for a última fala com resposta, para antes
+            if (i == objetoDialogo.Dialogo.Length - 1 && objetoDialogo.temResposta)
+                break;
         }
+
         if (objetoDialogo.temResposta)
         {
             gerirResposta.MostrarRespostas(objetoDialogo.Respostas);
@@ -51,8 +77,8 @@ public class DialogoUI : MonoBehaviour
         {
             FecharCaixaDeDialogo();
         }
-
     }
+
 
     public void FecharCaixaDeDialogo()
     {

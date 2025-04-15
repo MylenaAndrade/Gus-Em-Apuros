@@ -7,6 +7,7 @@ using System;
 public class EfeitoDeEscrita : MonoBehaviour
 {
     [SerializeField] private float velocidadeDeEscrita = 50f;
+    
     public Coroutine Rodar(string textoParaEscrever, TMP_Text areaDoTexto){
         return StartCoroutine(TypeText(textoParaEscrever, areaDoTexto));
     }

@@ -12,7 +12,7 @@ public class GerirResposta : MonoBehaviour
     [SerializeField] private RectTransform containerResposta;
     private DialogoUI dialogoUI;
     private EventoResposta[] eventosResposta;
-    List<GameObject> tempBotaoResposta = new List<GameObject>();
+    private List<GameObject> tempBotaoResposta = new List<GameObject>();
 
     private void Start()
     {
@@ -27,7 +27,9 @@ public class GerirResposta : MonoBehaviour
     public void MostrarRespostas(Resposta[] respostas){
         float alturaCaixaDeResposta = 0;
         float larguraExtra = 0;
+
         modeloBotaoResposta.gameObject.SetActive(false);
+
         for(int i = 0; i < respostas.Length; i++){
             Resposta resposta = respostas[i];
             int respostaIndex = i;
@@ -59,10 +61,9 @@ public class GerirResposta : MonoBehaviour
         if(eventosResposta != null && respostaIndex <= eventosResposta.Length){
             eventosResposta[respostaIndex].RespostaEscolhida?.Invoke();
         }
-
         eventosResposta = null;
 
-        if(resposta.ObjetoDialogo == null) 
+        if(resposta.ObjetoDialogo) 
         {
             dialogoUI.MostrarDialogo(resposta.ObjetoDialogo);
         }

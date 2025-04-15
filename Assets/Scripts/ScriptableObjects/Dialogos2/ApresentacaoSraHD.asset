@@ -24,7 +24,7 @@ MonoBehaviour:
   - "Ah, ol\xE1 querido,  n\xE3o te ouvi entrando. Seja Bem-Vindo!"
   - Me chamo Helena Damasco, mas todos me chamam de Sra. HD
   - "Sou eu que controlo e guardo todos os registros e informa\xE7\xF5es desse mundo"
-  - Deseja fazer alguma pergunta?
+  - Posso lhe ajudar com alguma coisa?
   respostas:
-  - textoResposta: Com quem a senhora estava falando?
+  - textoResposta: Por acaso a senhora estava falando sozinha?
     objetoDialogo: {fileID: 11400000, guid: 5f9437fffc9233d4dae2460621287e39, type: 2}

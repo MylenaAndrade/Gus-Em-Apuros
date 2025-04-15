@@ -74,7 +74,7 @@ public class Interacao : MonoBehaviour
         }
     }
 
-    private void ProximaFase()
+    public void ProximaFase()
     {
         if (_nomeProximaFase != null)
         {

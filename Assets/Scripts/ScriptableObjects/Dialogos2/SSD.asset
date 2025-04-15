@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: SSD
   m_EditorClassIdentifier: 
   dialogo:
-  - Como assim com quem?
-  - 'Estava falando com o Samuel Severino Damasco '
-  - "O beb\xEA da vov\xF3"
+  - "Sozinha? A n\xE3o haha"
+  - "Estava falando com o Samuel Severino Damasco, o beb\xEA da vov\xF3"
   - "V\xF3 eu j\xE1 falei que eu n\xE3o sou um beb\xEA, eu j\xE1 tenho 6 anos"
-  - Ta bom SSD, toma aqui um dinheirinho para comprar um sorvete
+  - "Ta bom SSD, toma aqui um dinheirinho para voc\xEA comprar um sorvete, vai l\xE1
+    vai"
+  - "Ele \xE9 uma gracinha n\xE3o acha?"
   respostas:
-  - textoResposta: "Ele \xE9 meio rapidinho n\xE9?"
+  - textoResposta: "Ele \xE9 rapidinho n\xE9?"
     objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}
+  indicesQueAtivamTimeline: 03000000

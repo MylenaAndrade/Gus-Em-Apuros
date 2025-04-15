@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4
-        y: 0
+        y: 50
         width: 9
-        height: 10
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,6 +126,111 @@ TextureImporter:
       bones: []
       spriteID: dece87aad9ce47349b48c2a3ecd04d73
       internalID: 2028668631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuelSeverinoDamasco_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 50
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de50b4c221db8ac4aa4852dd51d46e97
+      internalID: 1247951332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuelSeverinoDamasco_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 50
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aefd5f7fef9d864f9de6962beaa24ae
+      internalID: 1603261085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuelSeverinoDamasco_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6222279a016a499d0383b6fff9163
+      internalID: 582195537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuelSeverinoDamasco_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096a8b48f0d465b4dab7443b34569092
+      internalID: -848808795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamuelSeverinoDamasco_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdcc4982c185ee41a27ca56fbc0c2dc
+      internalID: -1379451157
       vertices: []
       indices: 
       edges: []
@@ -142,6 +247,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       SamuelSeverinoDamasco_0: 2028668631
+      SamuelSeverinoDamasco_1: 1247951332
+      SamuelSeverinoDamasco_2: 1603261085
+      SamuelSeverinoDamasco_3: 582195537
+      SamuelSeverinoDamasco_4: -848808795
+      SamuelSeverinoDamasco_5: -1379451157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

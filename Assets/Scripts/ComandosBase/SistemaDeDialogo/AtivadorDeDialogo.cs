@@ -8,9 +8,15 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 {
     [SerializeField] private ObjetoDialogo objetoDialogo;
     [SerializeField] private GameObject aperteE;
+    [SerializeField] private ObjetoDialogo objetoEvento;
     private GameObject objetoArmazenado;
+    public int numero;
 
-    public void AtualizarObjetoDialogo(ObjetoDialogo objetoDialogo)
+    private void Start()
+    {
+        
+    }
+  public void AtualizarObjetoDialogo(ObjetoDialogo objetoDialogo)
     {
         this.objetoDialogo = objetoDialogo;
     }
@@ -48,11 +54,12 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
         {
             if (eventosResposta.ObjetoDialogo == objetoDialogo)
             {
-                player.DialogoUI.AddEvertosDeRespostas(eventosResposta.Eventos);
+                player.DialogoUI.AdicionarEventosDeRespostas(eventosResposta.Eventos);
                 break;
             }
-        }
 
+        }
+      UnityEngine.Debug.Log("aconteceu");
         player.DialogoUI.MostrarDialogo(objetoDialogo);
        
     }

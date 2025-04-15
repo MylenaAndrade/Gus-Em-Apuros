@@ -25,4 +25,5 @@ MonoBehaviour:
   - E eu precisaria muito de ajuda.
   respostas:
   - textoResposta: Claro seria um prazer
-    objetoDialogo: {fileID: 11400000, guid: eaf5e69666ea2134b83c0a1f619c25cc, type: 2}
+    objetoDialogo: {fileID: 0}
+  indicesQueAtivamTimeline: 
