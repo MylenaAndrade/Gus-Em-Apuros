@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogo:
   - opa
+  - como vai
   respostas:
   - textoResposta: Eai
     objetoDialogo: {fileID: 11400000, guid: 4f9527c2f63d10c4c985d93c9902fd41, type: 2}

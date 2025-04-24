@@ -8,15 +8,46 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 {
     [SerializeField] private ObjetoDialogo objetoDialogo;
     [SerializeField] private GameObject aperteE;
-    [SerializeField] private ObjetoDialogo objetoEvento;
     private GameObject objetoArmazenado;
-    public int numero;
+
+    private PersonagemController playerConfig;
+
+    private bool podeVerificarResposta;
+
+    public GameManager gameManager;
 
     private void Start()
     {
-        
+        podeVerificarResposta = true;
+        if (gameManager.salvarObjetoDialogo != null && objetoDialogo != gameManager.salvarObjetoDialogo)
+        {
+            objetoDialogo = gameManager.salvarObjetoDialogo;
+        }
     }
-  public void AtualizarObjetoDialogo(ObjetoDialogo objetoDialogo)
+
+    private void Update()
+    {
+
+        if (playerConfig != null)
+        {
+            bool clicou = playerConfig.DialogoUI.GerirResposta.ObjResposta.Clicou;
+            if (!clicou) podeVerificarResposta = true;
+            if (clicou)
+            {
+                if (podeVerificarResposta)
+                {
+                    ObjetoDialogo objeto = playerConfig.DialogoUI.GerirResposta.ObjResposta.Objeto;
+                    if(objeto != null){
+                        EventoObjetoDialogo(objeto);
+                    } 
+                    podeVerificarResposta = false;
+                }
+            }
+        }
+
+
+    }
+    public void AtualizarObjetoDialogo(ObjetoDialogo objetoDialogo)
     {
         this.objetoDialogo = objetoDialogo;
     }
@@ -50,17 +81,23 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 
     public void Interagir(PersonagemController player)
     {
+        playerConfig = player;
+        EventoObjetoDialogo(objetoDialogo);
+        
+        player.DialogoUI.MostrarDialogo(objetoDialogo);
+       
+    }
+
+    public void EventoObjetoDialogo(ObjetoDialogo objetoDialogoEvento)
+    {
         foreach(EventoDialogoResposta eventosResposta in GetComponents<EventoDialogoResposta>())
         {
-            if (eventosResposta.ObjetoDialogo == objetoDialogo)
+            if (eventosResposta.ObjetoDialogo == objetoDialogoEvento)
             {
-                player.DialogoUI.AdicionarEventosDeRespostas(eventosResposta.Eventos);
+                playerConfig.DialogoUI.AdicionarEventosDeRespostas(eventosResposta.Eventos);
                 break;
             }
 
         }
-      UnityEngine.Debug.Log("aconteceu");
-        player.DialogoUI.MostrarDialogo(objetoDialogo);
-       
     }
 }

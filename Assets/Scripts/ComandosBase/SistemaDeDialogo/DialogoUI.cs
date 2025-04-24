@@ -12,9 +12,10 @@ public class DialogoUI : MonoBehaviour
 
     public bool estaAberto { get; private set; }
     private GerirResposta gerirResposta;
-
+    public GerirResposta GerirResposta => gerirResposta;
+    
     private EfeitoDeEscrita efeitoDeEscrita;
-
+    private bool bloquearTeclado = false;
 
     private void Start()
     {
@@ -42,7 +43,7 @@ public class DialogoUI : MonoBehaviour
             string dialogo = objetoDialogo.Dialogo[i];
             yield return efeitoDeEscrita.Rodar(dialogo, areaDoTexto);
 
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            yield return new WaitUntil(() => !bloquearTeclado && Input.GetKeyDown(KeyCode.E));
 
             // Se essa fala ativa uma timeline:
             if (objetoDialogo.IndicesQueAtivamTimeline != null &&
@@ -51,12 +52,16 @@ public class DialogoUI : MonoBehaviour
                 // Fecha a caixa imediatamente
                 FecharCaixaDeDialogo();
 
+                bloquearTeclado = true;
                 bool timelineTerminou = false;
 
                 controladorTimeline.aoTerminarTimeline += () => timelineTerminou = true;
                 controladorTimeline.IniciarTimeline();
 
                 yield return new WaitUntil(() => timelineTerminou);
+
+                bloquearTeclado = false;
+                yield return new WaitUntil(() => !Input.GetKey(KeyCode.E));
 
                 // Reabrir a caixa e continuar de onde parou
                 caixaDeDialogo.SetActive(true);
@@ -87,4 +92,5 @@ public class DialogoUI : MonoBehaviour
         areaDoTexto.text = string.Empty;
         
     }
+
 }

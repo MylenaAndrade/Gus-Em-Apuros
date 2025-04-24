@@ -13,6 +13,15 @@ public class GerirResposta : MonoBehaviour
     private DialogoUI dialogoUI;
     private EventoResposta[] eventosResposta;
     private List<GameObject> tempBotaoResposta = new List<GameObject>();
+    
+    [SerializeField] private ObjetoResposta objResposta = new() { Objeto = null, Clicou = false };
+    public ObjetoResposta ObjResposta => objResposta;
+
+    public class ObjetoResposta
+    {
+        public ObjetoDialogo Objeto { get; set; }
+        public bool Clicou { get; set; }
+    }
 
     private void Start()
     {
@@ -27,7 +36,7 @@ public class GerirResposta : MonoBehaviour
     public void MostrarRespostas(Resposta[] respostas){
         float alturaCaixaDeResposta = 0;
         float larguraExtra = 0;
-
+        objResposta.Clicou = false;
         modeloBotaoResposta.gameObject.SetActive(false);
 
         for(int i = 0; i < respostas.Length; i++){
@@ -52,6 +61,8 @@ public class GerirResposta : MonoBehaviour
 
     private void RespostaEscolhida(Resposta resposta, int respostaIndex){
         caixaDeResposta.gameObject.SetActive(false);
+        
+        objResposta.Clicou = true;
 
         foreach(GameObject button in tempBotaoResposta){
             Destroy(button);
@@ -65,10 +76,12 @@ public class GerirResposta : MonoBehaviour
 
         if(resposta.ObjetoDialogo) 
         {
+            objResposta.Objeto = resposta.ObjetoDialogo;
             dialogoUI.MostrarDialogo(resposta.ObjetoDialogo);
         }
         else
         {
+            objResposta.Objeto = null;
             dialogoUI.FecharCaixaDeDialogo();
         }
 

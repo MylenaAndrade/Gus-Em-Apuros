@@ -2318,9 +2318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffc4e5058dda2d4fa6e3e8b95fa3867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 5f9437fffc9233d4dae2460621287e39, type: 2}
+  objetoDialogo: {fileID: 11400000, guid: 695cbff27f32a0f4cbe870ef25c1954d, type: 2}
   aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
-  eventoResposta: Claro seria um prazer
+  gameManager: {fileID: 1604682853}
 --- !u!114 &846549902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2333,15 +2333,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4beae9a270aa0994aa7c0774a5fe70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}
+  objetoDialogo: {fileID: 11400000, guid: 4f9527c2f63d10c4c985d93c9902fd41, type: 2}
   eventos:
   - nome: Claro seria um prazer
     respostaEscolhida:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 1604682853}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: SalvarObjetoDialogo
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 32e0b2d7c9c24c64e8f349cc03878708, type: 2}
+            m_ObjectArgumentAssemblyTypeName: ObjetoDialogo, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 108414970}
           m_TargetAssemblyTypeName: AvancarCena, Assembly-CSharp
-          m_MethodName: MudarDeCena
+          m_MethodName: IrProximaFase
           m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4346,6 +4358,52 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.12882447, y: 4.570207, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1604682852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604682854}
+  - component: {fileID: 1604682853}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1604682853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604682852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeff839fa56746247ac67fa38d3a398c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroLegal: 1
+  salvarObjetoDialogo: {fileID: 0}
+--- !u!4 &1604682854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604682852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2656817, y: 7.3608527, z: -0.07902962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7433,7 +7491,6 @@ GameObject:
   - component: {fileID: 2030917718}
   - component: {fileID: 2030917717}
   - component: {fileID: 2030917720}
-  - component: {fileID: 2030917721}
   m_Layer: 0
   m_Name: estanteFixa_0 (1)
   m_TagString: Untagged
@@ -7553,21 +7610,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.1875, y: 4.5}
   m_EdgeRadius: 0
---- !u!114 &2030917721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030917716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ffc4e5058dda2d4fa6e3e8b95fa3867, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 1f64d7e7f83a87a4b98844a271ffbbfe, type: 2}
-  aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
-  eventoResposta: 
 --- !u!1 &2120195795
 GameObject:
   m_ObjectHideFlags: 0
@@ -7770,3 +7812,4 @@ SceneRoots:
   - {fileID: 1957063983}
   - {fileID: 710632682}
   - {fileID: 108414969}
+  - {fileID: 1604682854}
