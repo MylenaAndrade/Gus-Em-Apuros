@@ -26,10 +26,13 @@ public class DialogoUI : MonoBehaviour
 
     public void MostrarDialogo(ObjetoDialogo objetoDialogo)
     {
+        if (EntradaBloqueada.tecladoBloqueado) return; // Bloqueia se a timeline estiver tocando
+
         estaAberto = true;
         caixaDeDialogo.SetActive(true);
         StartCoroutine(EtapasDoDialogo(objetoDialogo));
     }
+
 
     public void AdicionarEventosDeRespostas(EventoResposta[] eventosResposta)
     {
@@ -52,16 +55,14 @@ public class DialogoUI : MonoBehaviour
                 // Fecha a caixa imediatamente
                 FecharCaixaDeDialogo();
 
-                bloquearTeclado = true;
+                EntradaBloqueada.tecladoBloqueado = true;
                 bool timelineTerminou = false;
 
                 controladorTimeline.aoTerminarTimeline += () => timelineTerminou = true;
                 controladorTimeline.IniciarTimeline();
 
                 yield return new WaitUntil(() => timelineTerminou);
-
-                bloquearTeclado = false;
-                yield return new WaitUntil(() => !Input.GetKey(KeyCode.E));
+                EntradaBloqueada.tecladoBloqueado = false;
 
                 // Reabrir a caixa e continuar de onde parou
                 caixaDeDialogo.SetActive(true);

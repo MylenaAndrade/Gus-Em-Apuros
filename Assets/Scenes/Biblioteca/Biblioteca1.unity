@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffc4e5058dda2d4fa6e3e8b95fa3867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 695cbff27f32a0f4cbe870ef25c1954d, type: 2}
+  objetoDialogo: {fileID: 11400000, guid: 88c082ceb655579488af987ab02fac4b, type: 2}
   aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
   gameManager: {fileID: 1604682853}
 --- !u!114 &846549902
@@ -2333,7 +2333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4beae9a270aa0994aa7c0774a5fe70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 4f9527c2f63d10c4c985d93c9902fd41, type: 2}
+  objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}
   eventos:
   - nome: Claro seria um prazer
     respostaEscolhida:

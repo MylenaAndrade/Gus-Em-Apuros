@@ -15,8 +15,6 @@ MonoBehaviour:
   dialogo:
   - "Onde ser\xE1 que eu deixei? N\xE3o sei onde coloquei..."
   - "Como assim o que? Meus \xF3culos n\xE3o sei onde est\xE1...."
-  - "Vamos me ajude a encontrar, voc\xEA sabe muito bem que eu n\xE3o enxergo nada
-    sem eles"
   - "Hm? No meu rosto? S\xE9rio?"
   - "Haha, n\xE3o acredito. Ele estava aqui esse tempo todo"
   - "Certo... Acho que a minha mem\xF3ria n\xE4o tem sido mais a mesma"
@@ -28,3 +26,4 @@ MonoBehaviour:
   respostas:
   - textoResposta: Por acaso a senhora estava falando sozinha?
     objetoDialogo: {fileID: 11400000, guid: 5f9437fffc9233d4dae2460621287e39, type: 2}
+  indicesQueAtivamTimeline: 
