@@ -13,12 +13,26 @@ MonoBehaviour:
   m_Name: SSD
   m_EditorClassIdentifier: 
   dialogo:
-  - "Sozinha? A n\xE3o haha"
-  - "Estava falando com o Samuel Severino Damasco, o beb\xEA da vov\xF3"
-  - "V\xF3 eu j\xE1 falei que eu n\xE3o sou um beb\xEA, eu j\xE1 tenho 6 anos"
-  - "Ta bom SSD, toma aqui um dinheirinho para voc\xEA comprar um sorvete, vai l\xE1
-    vai"
-  - "Ele \xE9 uma gracinha n\xE3o acha?"
+  - _identificador: "[Sra. HD]: Oh n\xE3o! Eu estava falando com o Samuel Severino
+      Damasco..."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Oh n\xE3o! Eu estava falando com o Samuel Severino Damasco..."
+  - _identificador: "[Sra. HD]: O BEB\xCA DA VOV\xD3"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "O BEB\xCA DA VOV\xD3"
+  - _identificador: "[SSD]: Poxa v\xF3 eu j\xE1 te falei para n\xE3o me chamar assim.
+      Eu j\xE1 sou grande"
+    _ator: {fileID: 11400000, guid: 0bf94c488772c394c86a5d90fcf9709f, type: 2}
+    _texto: "Poxa v\xF3 eu j\xE1 te falei para n\xE3o me chamar assim. Eu j\xE1 sou
+      grande"
+  - _identificador: "[Sra. HD]: T\xE1 bom querido, desculpa. Vai l\xE1 comprar um
+      sorvetinho, toma aqui o dinheirinho."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "T\xE1 bom querido, desculpa. Vai l\xE1 comprar um sorvetinho, toma aqui
+      o dinheirinho."
+  - _identificador: "[Sra. HD]: Ele \xE9 uma gracinha n\xE3o acha?"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Ele \xE9 uma gracinha n\xE3o acha?"
   respostas:
   - textoResposta: "Ele \xE9 rapidinho n\xE9?"
     objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}

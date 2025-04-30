@@ -2,11 +2,14 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DialogoUI : MonoBehaviour
 {
     [SerializeField] private GameObject caixaDeDialogo;
     [SerializeField] private TMP_Text areaDoTexto;
+    [SerializeField] private Image fotoAtor;
+    [SerializeField] private TextMeshProUGUI textoNomeAtor;
     [SerializeField] private TimelineController controladorTimeline;
     [SerializeField] private GameObject gameObjectParaDesligar;
 
@@ -16,6 +19,7 @@ public class DialogoUI : MonoBehaviour
     
     private EfeitoDeEscrita efeitoDeEscrita;
     private bool bloquearTeclado = false;
+
 
     private void Start()
     {
@@ -41,9 +45,15 @@ public class DialogoUI : MonoBehaviour
 
     private IEnumerator EtapasDoDialogo(ObjetoDialogo objetoDialogo)
     {
+
         for (int i = 0; i < objetoDialogo.Dialogo.Length; i++)
         {
-            string dialogo = objetoDialogo.Dialogo[i];
+            FalaDialogo falaAtual = objetoDialogo.Dialogo[i];
+            Ator ator = falaAtual.Ator;
+
+            this.fotoAtor.sprite = falaAtual.Ator.Foto;
+            this.textoNomeAtor.text = ator.Nome;
+            string dialogo = objetoDialogo.Dialogo[i].Texto;
             yield return efeitoDeEscrita.Rodar(dialogo, areaDoTexto);
 
             yield return new WaitUntil(() => !bloquearTeclado && Input.GetKeyDown(KeyCode.E));

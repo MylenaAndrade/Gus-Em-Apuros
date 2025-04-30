@@ -13,16 +13,34 @@ MonoBehaviour:
   m_Name: IntroducaoOrganizarLivros
   m_EditorClassIdentifier: 
   dialogo:
-  - "Sim e ele tem que ser, afinal a mem\xF3ria dele \xE9 muito mais r\xE1pida do
-    que a minha"
-  - "Ele n\xE3o sabe, mas estou passando meus conhecimentos aos poucos para ele"
-  - "Futuramente ele herder\xE1 tudo isso aqui. Por\xE9m, tenho que deixar esse lugar
-    organizado"
-  - "A prop\xF3sito voc\xEA poderia me ajudar organizando os livros das prateleiras
-    de cima?"
-  - "Eu sei que acabamos de nos conhecer mas o SSD n\xE3o tem tamanho suficiente
-    para alcan\xE7ar"
-  - E eu precisaria muito de ajuda.
+  - _identificador: "[Sra. HD]: E ele tem que ser. Afinal o acesso a mem\xF3ria dele
+      \xE9 muito mais r\xE1pido que o meu"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "E ele tem que ser. Afinal o acesso a mem\xF3ria dele \xE9 muito mais
+      r\xE1pido que o meu"
+  - _identificador: "[Sra. HD]: Sabe querido, j\xE1 estou ficando lenta demais para
+      esse trabalho todo"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Sabe querido, j\xE1 estou ficando lenta demais para esse trabalho todo"
+  - _identificador: "[Sra. HD]: O SSD n\xE3o sabe, mas estou passando todo o meu
+      conhecimento aos poucos para ele"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "O SSD n\xE3o sabe, mas estou passando todo o meu conhecimento aos poucos
+      para ele"
+  - _identificador: '[Sra. HD]: Mas primeiro tenho que deixar tudo na mais perfeita
+      ordem.'
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: Mas primeiro tenho que deixar tudo na mais perfeita ordem.
+  - _identificador: "[Sra. HD]: A prop\xF3sito sei que acabamos de nos conhecer.
+      Mas teria como voc\xEA organizar os livros das prateleiras de cima?"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "A prop\xF3sito sei que acabamos de nos conhecer. Mas teria como voc\xEA
+      organizar os livros das prateleiras de cima?"
+  - _identificador: "[Sra. HD]: O meu beb\xEA \xE9 muito pequeno para alcan\xE7ar.
+      Voc\xEA poderia me fazer esse favor? Seria de grande ajuda!"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "O meu beb\xEA \xE9 muito pequeno para alcan\xE7ar. Voc\xEA poderia me
+      fazer esse favor? Seria de grande ajuda!"
   respostas:
   - textoResposta: Claro seria um prazer
     objetoDialogo: {fileID: 0}

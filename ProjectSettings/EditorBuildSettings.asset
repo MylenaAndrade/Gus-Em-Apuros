@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Biblioteca/Biblioteca.unity
     guid: 78e55c237227b794c8580c38be223e78
+  - enabled: 1
+    path: Assets/Scenes/Biblioteca/Biblioteca2.unity
+    guid: ff426aca2def8ff4bb069160a38340d3
   m_configObjects: {}

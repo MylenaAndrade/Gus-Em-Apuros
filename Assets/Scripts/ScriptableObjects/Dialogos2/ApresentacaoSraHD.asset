@@ -13,16 +13,42 @@ MonoBehaviour:
   m_Name: ApresentacaoSraHD
   m_EditorClassIdentifier: 
   dialogo:
-  - "Onde ser\xE1 que eu deixei? N\xE3o sei onde coloquei..."
-  - "Como assim o que? Meus \xF3culos n\xE3o sei onde est\xE1...."
-  - "Hm? No meu rosto? S\xE9rio?"
-  - "Haha, n\xE3o acredito. Ele estava aqui esse tempo todo"
-  - "Certo... Acho que a minha mem\xF3ria n\xE4o tem sido mais a mesma"
-  - O que? Temos visita?
-  - "Ah, ol\xE1 querido,  n\xE3o te ouvi entrando. Seja Bem-Vindo!"
-  - Me chamo Helena Damasco, mas todos me chamam de Sra. HD
-  - "Sou eu que controlo e guardo todos os registros e informa\xE7\xF5es desse mundo"
-  - Posso lhe ajudar com alguma coisa?
+  - _identificador: "[Sra. HD]: Onde ser\xE1 que eu deixei? N\xE3o sei onde coloquei..."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Onde ser\xE1 que eu deixei? N\xE3o sei onde coloquei..."
+  - _identificador: "[Sra. HD]: Como assim o que? Meus \xF3culos n\xE3o sei onde
+      est\xE1. "
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Como assim o que? Meus \xF3culos n\xE3o sei onde est\xE1. "
+  - _identificador: "[Sra. HD]: Onde? No meu rosto? S\xE9rio?"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Onde? No meu rosto? S\xE9rio?"
+  - _identificador: "[Sra. HD]: Haha, n\xE3o acredito. Ele estava aqui esse tempo
+      todo"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Haha, n\xE3o acredito. Ele estava aqui esse tempo todo"
+  - _identificador: "[Sra. HD]: Certo... Acho que a minha mem\xF3ria n\xE4o tem sido
+      mais a mesma"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Certo... Acho que a minha mem\xF3ria n\xE4o tem sido mais a mesma"
+  - _identificador: '[Sra. HD]: O que? Temos visita?'
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: O que? Temos visita?
+  - _identificador: "[Sra. HD]: Ah, ol\xE1 querido,  n\xE3o te ouvi entrando. Seja
+      Bem-Vindo!"
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Ah, ol\xE1 querido,  n\xE3o te ouvi entrando. Seja Bem-Vindo!"
+  - _identificador: '[Sra. HD]: Me chamo Helena Damasco, mas todos me chamam de Sra.
+      HD'
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: Me chamo Helena Damasco, mas todos me chamam de Sra. HD
+  - _identificador: "[Sra. HD]: Sou eu que controlo e guardo todos os registros e
+      informa\xE7\xF5es "
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Sou eu que controlo e guardo todos os registros e informa\xE7\xF5es "
+  - _identificador: '[Sra. HD]: Posso lhe ajudar com algo?'
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: Posso lhe ajudar com algo?
   respostas:
   - textoResposta: Por acaso a senhora estava falando sozinha?
     objetoDialogo: {fileID: 11400000, guid: 5f9437fffc9233d4dae2460621287e39, type: 2}

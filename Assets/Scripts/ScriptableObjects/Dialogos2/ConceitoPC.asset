@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5349ae4579b3fe7479fa44e2b591cd4f, type: 3}
-  m_Name: SSD
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: ConceitoPC
   m_EditorClassIdentifier: 
-  _nome: SSD
-  _foto: {fileID: 1745316961, guid: 3dbbff2dd3381f240a22f73bfcb54c84, type: 3}
+  dialogo: []
+  respostas: []
+  indicesQueAtivamTimeline: 

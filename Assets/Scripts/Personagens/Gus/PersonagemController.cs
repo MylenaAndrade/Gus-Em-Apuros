@@ -22,6 +22,7 @@ public class PersonagemController : MonoBehaviour
 
     void Update()
     {
+        
         if (dialogoUI.estaAberto) return;
 
          if (Input.GetKeyDown(KeyCode.E))

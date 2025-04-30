@@ -3219,7 +3219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f001fffa5632c14eb9a64831e9776fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeProximaFase: Biblioteca1
+  nomeProximaFase: Biblioteca2
 --- !u!224 &1852643953 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4850351269511927937, guid: 49acf00e45ec3874292ed7ac10327b17, type: 3}
