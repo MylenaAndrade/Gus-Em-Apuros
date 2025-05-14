@@ -26,11 +26,15 @@ public class TwoController : MonoBehaviour
         _twoAnimator = GetComponent<Animator>();
         _gus = GameObject.FindGameObjectWithTag("Player");
 
-        _gusPos = SetDirection(1,1, _gus.transform.position);
-        _twoPos = transform.position;
-        
+        // Direção inicial (ex: seguindo por trás de Gus, para baixo)
+        _lastDirectionX = 0;
+        _lastDirectionY = -1;
 
-        transform.position = Vector2.MoveTowards(_twoPos, _gusPos, _speed * Time.deltaTime);
+        // Posição inicial com base na direção e distância
+        Vector2 initialPos = SetDirection(_lastDirectionX, _lastDirectionY, _gus.transform.position);
+
+        // Posiciona Two diretamente
+        transform.position = initialPos;
     }
 
     private void Update()

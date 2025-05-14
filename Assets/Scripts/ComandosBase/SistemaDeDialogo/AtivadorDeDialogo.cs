@@ -14,15 +14,10 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 
     private bool podeVerificarResposta;
 
-    public GameManager gameManager;
 
     private void Start()
     {
         podeVerificarResposta = true;
-        if (gameManager.salvarObjetoDialogo != null && objetoDialogo != gameManager.salvarObjetoDialogo)
-        {
-            objetoDialogo = gameManager.salvarObjetoDialogo;
-        }
     }
 
     private void Update()
