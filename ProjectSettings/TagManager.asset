@@ -11,6 +11,8 @@ TagManager:
   - LivroLaranja
   - LivroRoxo
   - LivroAmarelo
+  - Fim
+  - Obstaculo
   layers:
   - Default
   - TransparentFX

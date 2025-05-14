@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Biblioteca
     originalName: 
-    pivot: {x: 0.30624998, y: -0.26451612}
+    pivot: {x: 0.5085324, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 160
-      height: 155
+      width: 293
+      height: 231
     spriteID: 9f3a0cf531168c945a05e5d632c3b42c
     spriteBone: []
     spriteOutline: []
@@ -153,10 +153,10 @@ ScriptedImporter:
     - name: Biblioteca
       frameIndex: 0
       cellRect:
-        x: 101
-        y: 41
-        width: 160
-        height: 155
+        x: 1
+        y: 0
+        width: 293
+        height: 231
       spriteId: 9f3a0cf531168c945a05e5d632c3b42c
     linkedCells: []
     parentIndex: -1

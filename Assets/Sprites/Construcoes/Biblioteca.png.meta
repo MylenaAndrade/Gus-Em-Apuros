@@ -113,10 +113,10 @@ TextureImporter:
       name: Biblioteca_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 44
-        width: 176
-        height: 176
+        x: 97
+        y: 52
+        width: 168
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

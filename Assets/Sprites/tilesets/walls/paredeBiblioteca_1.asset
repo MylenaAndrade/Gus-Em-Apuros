@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: chaoBiblioteca_10
+  m_Name: paredeBiblioteca_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -188474243, guid: 26118f732d0a88642aed231ed7709fc4, type: 3}
+  m_Sprite: {fileID: -291219814, guid: 9bf03b75a8940f440af52a310b412f38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
