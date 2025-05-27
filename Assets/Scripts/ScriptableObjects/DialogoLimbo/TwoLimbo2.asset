@@ -36,4 +36,4 @@ MonoBehaviour:
       a ser escrita."
   respostas: []
   indicesQueAtivamTimeline: 03000000
-  indicesQueAtivamObjetos: 02000000
+  indicesQueAtivamObjetos: 01000000
