@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Papel
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: '[Gus]: 0..1...0...1010101000101010111...'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: 0..1...0...1010101000101010111...
+  - _identificador: "[Two]: Que isso Gus? Enlouqueceu foi? L\xEA isso direito."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Que isso Gus? Enlouqueceu foi? L\xEA isso direito."
+  - _identificador: "[Gus]: Como assim Two? S\xF3 tem 0 e 1 aqui."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Como assim Two? S\xF3 tem 0 e 1 aqui."
+  - _identificador: "[Two]: Est\xE1 escrito em bin\xE1rio seu BOC\xD3!"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Est\xE1 escrito em bin\xE1rio seu BOC\xD3!"
+  - _identificador: '[Two]: Aqui diz abre aspas:'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: 'Aqui diz abre aspas:'
+  - _identificador: "[Two]: \xC9 importante entender que as decis\xF5es que tomamos
+      se baseiam em uma l\xF3gica"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "\xC9 importante entender que as decis\xF5es que tomamos se baseiam em
+      uma l\xF3gica"
+  - _identificador: "[Two]: Aqui nesse mundo chamamos isso de portas l\xF3gicas"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Aqui nesse mundo chamamos isso de portas l\xF3gicas"
+  - _identificador: "[Two]: Onde com base nas entradas e no operador l\xF3gico julgamos
+      se a afirma\xE7\xE3o \xE9 Verdadeira ou Falsa"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Onde com base nas entradas e no operador l\xF3gico julgamos se a afirma\xE7\xE3o
+      \xE9 Verdadeira ou Falsa"
+  - _identificador: "[Two]: Nesse primeiro n\xEDvel vamos apenas julgar se uma afirma\xE7\xE3o
+      \xE9 V ou F"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Nesse primeiro n\xEDvel vamos apenas julgar se uma afirma\xE7\xE3o \xE9
+      V ou F"
+  - _identificador: "[Two]: Voc\xEA, Gus, encontrar\xE1 essas afirma\xE7\xF5es em
+      est\xE1tuas espalhadas pelo mapa"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Voc\xEA, Gus, encontrar\xE1 essas afirma\xE7\xF5es em est\xE1tuas espalhadas
+      pelo mapa"
+  - _identificador: "[Two]: Se voc\xEA julgar de forma correta a est\xE1tua mudar\xE1
+      de cor"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Se voc\xEA julgar de forma correta a est\xE1tua mudar\xE1 de cor"
+  - _identificador: "[Two]: Mas se julgar incorretamente, todas retornar\xE3o a cor
+      inicial"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Mas se julgar incorretamente, todas retornar\xE3o a cor inicial"
+  - _identificador: "[Two]: Mude todas as est\xE1tuas de cor e libere o pr\xF3ximo
+      n\xEDvel"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Mude todas as est\xE1tuas de cor e libere o pr\xF3ximo n\xEDvel"
+  respostas: []
+  indicesQueAtivamTimeline: 

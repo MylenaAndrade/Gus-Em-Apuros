@@ -7,8 +7,10 @@ public class ObjetoDialogo : ScriptableObject
    // [SerializeField] [TextArea] private string[] dialogo;
     [SerializeField] private Resposta[] respostas;
     [SerializeField] private int[] indicesQueAtivamTimeline;
+    [SerializeField] private int[] indicesQueAtivamObjetos;
 
     public int[] IndicesQueAtivamTimeline => indicesQueAtivamTimeline;
+    public int[] IndicesQueAtivamObjetos => indicesQueAtivamObjetos;
     
   //  public string[] Dialogo => dialogo;
 

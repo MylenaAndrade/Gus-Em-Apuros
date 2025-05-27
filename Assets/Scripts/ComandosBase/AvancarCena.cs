@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class AvancarCena: MonoBehaviour
 {
+    [SerializeField] private string nomeProximaFase;
     public static void IrProximaFase(string nomeProximaFase)
     {
         Debug.Log(nomeProximaFase);
@@ -12,12 +13,12 @@ public class AvancarCena: MonoBehaviour
     }
 
     public void MudarDeCena(string nomeProximaFase)
+        {
+            SceneManager.LoadScene(nomeProximaFase);
+        }
+        public void TesteEvento()
     {
-        SceneManager.LoadScene(nomeProximaFase);
+        Debug.Log("Evento foi chamado!");
     }
-    public void TesteEvento()
-{
-    Debug.Log("Evento foi chamado!");
-}
 
 }

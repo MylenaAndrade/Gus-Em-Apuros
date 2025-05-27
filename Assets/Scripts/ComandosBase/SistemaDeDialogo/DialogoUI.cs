@@ -11,7 +11,9 @@ public class DialogoUI : MonoBehaviour
     [SerializeField] private Image fotoAtor;
     [SerializeField] private TextMeshProUGUI textoNomeAtor;
     [SerializeField] private TimelineController controladorTimeline;
-    [SerializeField] private GameObject gameObjectParaDesligar;
+    [SerializeField] private GameObject objeto;
+    [SerializeField] private bool trocarDeCena = false; //preciso melhorar isso, gambiarra feita por falta de tempo
+    [SerializeField] private string cenaParaTrocar;
 
     public bool estaAberto { get; private set; }
     private GerirResposta gerirResposta;
@@ -19,6 +21,7 @@ public class DialogoUI : MonoBehaviour
     
     private EfeitoDeEscrita efeitoDeEscrita;
     private bool bloquearTeclado = false;
+    bool timelineTerminou = false;
 
 
     private void Start()
@@ -66,7 +69,7 @@ public class DialogoUI : MonoBehaviour
                 FecharCaixaDeDialogo();
 
                 EntradaBloqueada.tecladoBloqueado = true;
-                bool timelineTerminou = false;
+
 
                 controladorTimeline.aoTerminarTimeline += () => timelineTerminou = true;
                 controladorTimeline.IniciarTimeline();
@@ -77,9 +80,21 @@ public class DialogoUI : MonoBehaviour
                 // Reabrir a caixa e continuar de onde parou
                 caixaDeDialogo.SetActive(true);
                 estaAberto = true;
-                gameObjectParaDesligar.SetActive(false);
+                objeto.SetActive(false);
+
+                 if(trocarDeCena == true && timelineTerminou == true)
+                {
+                    AvancarCena.IrProximaFase(cenaParaTrocar);
+                }
+                
             }
 
+            if (objetoDialogo.IndicesQueAtivamObjetos != null &&
+                System.Array.Exists(objetoDialogo.IndicesQueAtivamObjetos, index => index == i))
+            {
+                objeto.SetActive(true);
+            }
+            
             // Se for a última fala com resposta, para antes
             if (i == objetoDialogo.Dialogo.Length - 1 && objetoDialogo.temResposta)
                 break;

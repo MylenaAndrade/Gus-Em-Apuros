@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: TwoLimbo
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Two]: Ei... Voc\xEA me encontrou.  \xD3timo. Bem-vindo ao Limbo.
+      N\xE3o se assuste, esse lugar \xE9... entre seu mundo e o computacional. Nem
+      aqui, nem l\xE1. "
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Ei... Voc\xEA me encontrou.  \xD3timo. Bem-vindo ao Limbo. N\xE3o se
+      assuste, esse lugar \xE9... entre seu mundo e o computacional. Nem aqui, nem
+      l\xE1. "
+  - _identificador: '[Two]: Um vazio entre sistemas, onde os dados esquecidos e as
+      ideias perdidas flutuam sem rumo.'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Um vazio entre sistemas, onde os dados esquecidos e as ideias perdidas
+      flutuam sem rumo.
+  - _identificador: "[Two]: Voc\xEA n\xE3o se lembra como chegou aqui, n\xE3o \xE9?
+      Ningu\xE9m lembra. Mas talvez isso nem importe. Porque agora... Voc\xEA tem
+      uma miss\xE3o."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Voc\xEA n\xE3o se lembra como chegou aqui, n\xE3o \xE9? Ningu\xE9m lembra.
+      Mas talvez isso nem importe. Porque agora... Voc\xEA tem uma miss\xE3o."
+  - _identificador: "[Two]: O mundo computacional, onde ideias ganham forma e dados
+      t\xEAm alma... est\xE1 em colapso. O Livro do Sistema Operacional foi roubado. "
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "O mundo computacional, onde ideias ganham forma e dados t\xEAm alma...
+      est\xE1 em colapso. O Livro do Sistema Operacional foi roubado. "
+  - _identificador: "[Two]: Sem ele, tudo est\xE1 se fragmentando \u2014 mem\xF3rias,
+      fun\xE7\xF5es, at\xE9 as leis da l\xF3gica. Os habitantes de Citybyte precisam
+      de voc\xEB."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Sem ele, tudo est\xE1 se fragmentando \u2014 mem\xF3rias, fun\xE7\xF5es,
+      at\xE9 as leis da l\xF3gica. Os habitantes de Citybyte precisam de voc\xEB."
+  - _identificador: "[Two]: Sei que sua ideia original, era apenas encontrar o caminho
+      de volta pra casa. Mas se o mundo deles for desfeito, sua dona Myla perder\xE1
+      tudo."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Sei que sua ideia original, era apenas encontrar o caminho de volta
+      pra casa. Mas se o mundo deles for desfeito, sua dona Myla perder\xE1 tudo."
+  - _identificador: "[Two]: Gus, todos contam com voc\xEA. Restaure o equil\xEDbrio
+      do mundo e encontre o caminho de volta para casa e para os bra\xE7os de Myla."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Gus, todos contam com voc\xEA. Restaure o equil\xEDbrio do mundo e encontre
+      o caminho de volta para casa e para os bra\xE7os de Myla."
+  respostas:
+  - textoResposta: "Mas afinal quem \xE9 voc\xEA?"
+    objetoDialogo: {fileID: 11400000, guid: 15d6abce9b4391e44aab39af119cda89, type: 2}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

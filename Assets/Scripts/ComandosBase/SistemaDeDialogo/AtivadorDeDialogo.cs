@@ -13,11 +13,13 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
     private PersonagemController playerConfig;
 
     private bool podeVerificarResposta;
+    public Tremor tremor;
 
 
     private void Start()
     {
         podeVerificarResposta = true;
+
     }
 
     private void Update()
@@ -32,14 +34,14 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
                 if (podeVerificarResposta)
                 {
                     ObjetoDialogo objeto = playerConfig.DialogoUI.GerirResposta.ObjResposta.Objeto;
-                    if(objeto != null){
+                    if (objeto != null)
+                    {
                         EventoObjetoDialogo(objeto);
-                    } 
+                    }
                     podeVerificarResposta = false;
                 }
             }
         }
-
 
     }
     public void AtualizarObjetoDialogo(ObjetoDialogo objetoDialogo)
