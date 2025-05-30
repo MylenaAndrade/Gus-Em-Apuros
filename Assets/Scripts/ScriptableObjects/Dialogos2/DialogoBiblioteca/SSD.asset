@@ -36,4 +36,5 @@ MonoBehaviour:
   respostas:
   - textoResposta: "Ele \xE9 rapidinho n\xE9?"
     objetoDialogo: {fileID: 11400000, guid: 92b3b5dbf110ea84a9981f4513b4ed30, type: 2}
-  indicesQueAtivamTimeline: 03000000
+  indicesQueAtivamTimeline: 00000000
+  indicesQueAtivamObjetos: 

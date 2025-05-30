@@ -13,7 +13,6 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
     private PersonagemController playerConfig;
 
     private bool podeVerificarResposta;
-    public Tremor tremor;
 
 
     private void Start()

@@ -13,9 +13,9 @@ public class AvancarCena: MonoBehaviour
     }
 
     public void MudarDeCena(string nomeProximaFase)
-        {
-            SceneManager.LoadScene(nomeProximaFase);
-        }
+    {
+         SceneManager.LoadScene(nomeProximaFase);
+    }
         public void TesteEvento()
     {
         Debug.Log("Evento foi chamado!");

@@ -246,7 +246,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9, y: 6}
+    oldSize: {x: 9, y: 6.875}
     newSize: {x: 9, y: 6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -17524,15 +17524,21 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -5.699032, y: 1.8908005}
-  - {x: -1.8248558, y: 1.9521885}
-  - {x: -1.8022423, y: 5.0245667}
-  - {x: 1.7912483, y: 5.070219}
-  - {x: 1.8353672, y: 2.1412106}
-  - {x: 5.671837, y: 2.0930042}
-  - {x: 5.4654503, y: -5.038297}
-  - {x: -5.730923, y: -5.162154}
-  - {x: -5.7121153, y: 1.8907986}
+  - {x: -5.055599, y: -0.75520086}
+  - {x: -5.3149266, y: -0.71535236}
+  - {x: -5.2807684, y: 3.537981}
+  - {x: -1.958904, y: 3.6095707}
+  - {x: -0.756663, y: 4.3557987}
+  - {x: 0.8260983, y: 4.3432956}
+  - {x: 2.0498447, y: 3.5078244}
+  - {x: 5.269691, y: 3.4886959}
+  - {x: 5.2884326, y: -0.6901218}
+  - {x: 5.1007485, y: -0.72777927}
+  - {x: 5.116924, y: -3.8461452}
+  - {x: -0.0010008626, y: -3.8719041}
+  - {x: -0.7776697, y: -3.8962107}
+  - {x: -5.081269, y: -3.8417501}
+  - {x: -5.051453, y: -0.6627784}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -17566,7 +17572,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.04975796, y: -3.2648845}
@@ -17581,13 +17587,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280911939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80ba6840658ccac459bb8fa23c521246, type: 3}
+  m_Script: {fileID: 11500000, guid: af55198e31c445c43afda516f9956b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipoInteracao: 3
-  _dialogo: {fileID: 0}
-  _gameObject: {fileID: 0}
-  _nomeProximaFase: Biblioteca1
+  aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
+  nomeProximaFase: Biblioteca2
 --- !u!1 &1541569207
 GameObject:
   m_ObjectHideFlags: 0

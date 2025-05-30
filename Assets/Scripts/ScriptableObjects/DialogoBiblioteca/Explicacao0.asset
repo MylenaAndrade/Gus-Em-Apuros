@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Explicacao0
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Sra. HD]: Eu acredito que tudo esteja ligado. Mas \xE9 melhor
+      ir at\xE9 a prefeita. Ela saber\xE1 te responder melhor."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Eu acredito que tudo esteja ligado. Mas \xE9 melhor ir at\xE9 a prefeita.
+      Ela saber\xE1 te responder melhor."
+  - _identificador: '[Two]: Vai na frente SSD. Conte a prefeita o que aconteceu aqui.'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Vai na frente SSD. Conte a prefeita o que aconteceu aqui.
+  - _identificador: "[Gus]: Caramba ele \xE9 rapidinho n\xE9?"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Caramba ele \xE9 rapidinho n\xE9?"
+  - _identificador: "[Sra. HD]: E ele tem que ser. Afinal o acesso a mem\xF3ria dele
+      \xE9 muito mais r\xE1pido que o meu."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "E ele tem que ser. Afinal o acesso a mem\xF3ria dele \xE9 muito mais
+      r\xE1pido que o meu."
+  respostas: []
+  indicesQueAtivamTimeline: 01000000
+  indicesQueAtivamObjetos: 

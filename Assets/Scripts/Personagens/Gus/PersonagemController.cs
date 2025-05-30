@@ -7,6 +7,7 @@ public class PersonagemController : MonoBehaviour
     [SerializeField] private DialogoUI dialogoUI;
     public DialogoUI DialogoUI => dialogoUI;
     public IInteracaoDialogo InteracaoD { get; set; }
+    public IInteracaoObjeto InteracaoObjeto { get; set; }
     private Rigidbody2D personagemRigidbody2D;
     public float        personagemVelocidade;
     private Vector2     personagemDirecao;
@@ -25,9 +26,10 @@ public class PersonagemController : MonoBehaviour
         
         if (dialogoUI.estaAberto) return;
 
-         if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             InteracaoD?.Interagir(this);
+            InteracaoObjeto?.Interagir(this);
         }
     }
 
