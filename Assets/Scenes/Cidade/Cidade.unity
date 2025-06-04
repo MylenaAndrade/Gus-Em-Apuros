@@ -308,13 +308,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 65103570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80ba6840658ccac459bb8fa23c521246, type: 3}
+  m_Script: {fileID: 11500000, guid: af55198e31c445c43afda516f9956b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tipoInteracao: 3
-  _dialogo: {fileID: 0}
-  _gameObject: {fileID: 0}
-  _nomeProximaFase: CavernaNivel1
+  aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
+  nomeProximaFase: Prefeitura
 --- !u!1 &101189901
 GameObject:
   m_ObjectHideFlags: 0

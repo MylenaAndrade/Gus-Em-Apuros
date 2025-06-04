@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Caverna1
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Gus]: Um bilhete, deve ser as intru\xE7\xF5es que a prefeita
+      falou."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Um bilhete, deve ser as intru\xE7\xF5es que a prefeita falou."
+  - _identificador: '[Gus]: 0..1...0...1010101000101010111...000...11110001010...'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: 0..1...0...1010101000101010111...000...11110001010...
+  - _identificador: "[Two]: \xC9... Acho que desse jeito voc\xEA n\xE3o est\xE1 entendendo
+      nada n\xE9?"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "\xC9... Acho que desse jeito voc\xEA n\xE3o est\xE1 entendendo nada
+      n\xE9?"
+  - _identificador: "[Two]: N\xE3o mesmo haha. Para mim s\xE3o s\xF3 n\xFAmeros."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "N\xE3o mesmo haha. Para mim s\xE3o s\xF3 n\xFAmeros."
+  - _identificador: "[Two]: Porque t\xE1 em bin\xE1rio, seu boc\xF3 haha! Mas olha
+      s\xF3 o que diz:"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Porque t\xE1 em bin\xE1rio, seu boc\xF3 haha! Mas olha s\xF3 o que diz:"
+  - _identificador: "[Two]: As decis\xF5es nesse mundo seguem uma l\xF3gica: usamos
+      portas l\xF3gicas, que dizem se algo \xE9 Verdadeiro ou Falso, com base nas
+      entradas."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "As decis\xF5es nesse mundo seguem uma l\xF3gica: usamos portas l\xF3gicas,
+      que dizem se algo \xE9 Verdadeiro ou Falso, com base nas entradas."
+  - _identificador: "[Two]: Voc\xEA vai encontrar est\xE1tuas com afirma\xE7\xF5es
+      espalhadas pela caverna."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Voc\xEA vai encontrar est\xE1tuas com afirma\xE7\xF5es espalhadas pela
+      caverna."
+  - _identificador: "[Two]: Julgue se s\xE3o verdadeiras ou falsas. Acertando, a
+      est\xE1tua mudar\xE1 de cor. Errando... todas reiniciam."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Julgue se s\xE3o verdadeiras ou falsas. Acertando, a est\xE1tua mudar\xE1
+      de cor. Errando... todas reiniciam."
+  - _identificador: "[Two]: Ah, e lembre-se: no computador, usamos 0 para FALSO e
+      1 para VERDADEIRO. \xC9 a tal da \xE1lgebra booleana. Use essa l\xF3gica pra
+      avan\xE7ar."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Ah, e lembre-se: no computador, usamos 0 para FALSO e 1 para VERDADEIRO.
+      \xC9 a tal da \xE1lgebra booleana. Use essa l\xF3gica pra avan\xE7ar."
+  respostas: []
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

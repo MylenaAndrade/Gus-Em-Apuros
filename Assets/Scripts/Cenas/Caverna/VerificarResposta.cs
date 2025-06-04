@@ -28,6 +28,7 @@ public class VerificarResposta : MonoBehaviour
 
         _collider = ObterCollider(_estatuaGameObject);
         _collider.enabled = false;
+        Debug.Log(_collider.enabled);
 
         if (VerificarEstatuas())
         {
@@ -54,7 +55,7 @@ public class VerificarResposta : MonoBehaviour
     }
     private Collider2D ObterCollider(GameObject _gameObject)
     {
-        return _gameObject.GetComponent<Collider2D>();
+        return _gameObject.GetComponent<CapsuleCollider2D>();
     }
 
     private GameObject ObterGameObject(string nome)

@@ -28,6 +28,7 @@ public class PersonagemController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("Apertei E");
             InteracaoD?.Interagir(this);
             InteracaoObjeto?.Interagir(this);
         }

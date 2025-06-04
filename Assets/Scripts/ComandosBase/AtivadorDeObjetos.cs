@@ -5,6 +5,9 @@ using Vector2 = UnityEngine.Vector2;
 public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
 {
     [SerializeField] private GameObject aperteE;
+    public enum TipoInteracao { PerguntasCaverna, Porta }
+    [SerializeField] private TipoInteracao tipoInteracao;
+    [SerializeField] private GameObject objeto;
     [SerializeField] private string nomeProximaFase;
 
     private GameObject objetoArmazenado;
@@ -37,10 +40,20 @@ public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
             }
         }
     }
-    
+
     public void Interagir(PersonagemController player)
     {
-       AvancarCena.IrProximaFase(nomeProximaFase);
-       
+        switch (tipoInteracao)
+        {
+            case TipoInteracao.PerguntasCaverna:
+                TabelaVerdade.Exibir(objeto);
+                break;
+            case TipoInteracao.Porta:
+                AvancarCena.IrProximaFase(nomeProximaFase);
+                break;
+        }
+
+
     }
+    
 }

@@ -6,12 +6,7 @@ public class TabelaVerdade : MonoBehaviour
 {
     private static TabelaVerdade _instancia;
 
-    private void Awake(){
-        _instancia = this;
-        Esconder();
-    }
-
-    public void Exibir(GameObject _gameObject){
+    public static void Exibir(GameObject _gameObject){
         _gameObject.SetActive(true);
         
     }

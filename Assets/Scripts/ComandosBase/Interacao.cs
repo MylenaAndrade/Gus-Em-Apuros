@@ -70,7 +70,7 @@ public class Interacao : MonoBehaviour
     {
         if(_gameObject != null)
         {
-            TabelaVerdade.Instancia.Exibir(this._gameObject);
+         //   TabelaVerdade.Instancia.Exibir(this._gameObject);
         }
     }
 
