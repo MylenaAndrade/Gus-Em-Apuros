@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Prefeitura 3
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Two]: Relaxa Gus, sei que voc\xEA vai conseguir solucionar
+      os problemas. Vai dar tudo certo! Lembre-se n\xE3o irei sair do seu lado."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Relaxa Gus, sei que voc\xEA vai conseguir solucionar os problemas. Vai
+      dar tudo certo! Lembre-se n\xE3o irei sair do seu lado."
+  - _identificador: "[Gus]: Tudo bem, eu confio em voc\xEA Two. Prefeita estou pronto,
+      por onde come\xE7o?"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Tudo bem, eu confio em voc\xEA Two. Prefeita estou pronto, por onde
+      come\xE7o?"
+  - _identificador: "[Pref\xAA CPU]: Acredito que no momento \xE9 melhor come\xE7ar
+      pela Caverna da Verdade. L\xE1 voc\xEA ir\xE1 encontrar instru\xE7\xF5es, boa
+      sorte!"
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "Acredito que no momento \xE9 melhor come\xE7ar pela Caverna da Verdade.
+      L\xE1 voc\xEA ir\xE1 encontrar instru\xE7\xF5es, boa sorte!"
+  respostas: []
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

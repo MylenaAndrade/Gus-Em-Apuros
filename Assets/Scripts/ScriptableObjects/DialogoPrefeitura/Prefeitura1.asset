@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Prefeitura1
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Pref\xAA CPU]: Que bom que voc\xEAs chegaram! SSD j\xE1 me
+      contou tudo."
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "Que bom que voc\xEAs chegaram! SSD j\xE1 me contou tudo."
+  - _identificador: "[Pref\xAA CPU]: Pelo o que fiquei sabendo o Senhor Gus conseguiu
+      recuperar a biblioteca utilizando conceitos l\xF3gicos."
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "Pelo o que fiquei sabendo o Senhor Gus conseguiu recuperar a biblioteca
+      utilizando conceitos l\xF3gicos."
+  - _identificador: "[Pref\xAA CPU]: O que me faz acreditar que o livro e esse mundo
+      est\xE3o interligados. Para que possamos reav\xEA-los como era antes \xE9 preciso
+      utilizar o princ\xEDpio."
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "O que me faz acreditar que o livro e esse mundo est\xE3o interligados.
+      Para que possamos reav\xEA-los como era antes \xE9 preciso utilizar o princ\xEDpio."
+  respostas:
+  - textoResposta: "E qual \xE9 esse princ\xEDpio?"
+    objetoDialogo: {fileID: 11400000, guid: 72977f36d3343474aaff4b0040f5f81c, type: 2}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Prefeitura2
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Pref\xAA CPU]: \xC9 o que justamente sem nem perceber voc\xEA
+      j\xE1 vem utilizando, a l\xF3gica. N\xF3s habitantes de CityByte somos feitos
+      com base nesse princ\xEDpio. "
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "\xC9 o que justamente sem nem perceber voc\xEA j\xE1 vem utilizando,
+      a l\xF3gica. N\xF3s habitantes de CityByte somos feitos com base nesse princ\xEDpio. "
+  - _identificador: "[Pref\xAA CPU]: E por justamente fazermos parte desse mundo.
+      Nossa forma de pensar est\xE1 sendo corrompida."
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "E por justamente fazermos parte desse mundo. Nossa forma de pensar est\xE1
+      sendo corrompida."
+  - _identificador: "[Pref\xAA CPU]: E \xE9 ai que voc\xEA entra, senhor Gus. Precisamos
+      da sua ajuda para solucionar problemas que envolvem l\xF3gica e possivelmente
+      conceitos b\xE1sicos de programa\xE7\xE3o."
+    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+    _texto: "E \xE9 ai que voc\xEA entra, senhor Gus. Precisamos da sua ajuda para
+      solucionar problemas que envolvem l\xF3gica e possivelmente conceitos b\xE1sicos
+      de programa\xE7\xE3o."
+  respostas:
+  - textoResposta: "Programa\xE7\xE3o? Eu n\xE3o entendo nada sobre."
+    objetoDialogo: {fileID: 11400000, guid: c00d8ab6170f5f242a964db28db830fc, type: 2}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

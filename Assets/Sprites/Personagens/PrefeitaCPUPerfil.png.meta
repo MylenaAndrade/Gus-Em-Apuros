@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9064a61b12206648b13966635e7f1d9
+guid: 0e2f43e89499c6941aa2df07295a7f55
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prefeitura_0
+      name: PrefeitaCPUPerfil_0
       rect:
         serializedVersion: 2
-        x: 67
-        y: 59
-        width: 160
-        height: 107
+        x: 3
+        y: 3
+        width: 11
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c079a78c056eba1499e93a79606c5f0e
-      internalID: 101577863
+      spriteID: 4df14543e24c1d74094b20827c882226
+      internalID: -2021364467
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Prefeitura_0: 101577863
+      PrefeitaCPUPerfil_0: -2021364467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
