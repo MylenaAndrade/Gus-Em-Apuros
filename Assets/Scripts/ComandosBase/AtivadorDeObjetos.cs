@@ -14,6 +14,7 @@ public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.CompareTag("Player") && other.TryGetComponent(out PersonagemController player))
         {
             if (aperteE != null)

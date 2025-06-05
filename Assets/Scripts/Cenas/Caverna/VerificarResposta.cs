@@ -19,6 +19,7 @@ public class VerificarResposta : MonoBehaviour
     private string nomeProximaFase;
 
     private Collider2D _collider;
+    
 
     
     public void MudarCor()
@@ -28,6 +29,7 @@ public class VerificarResposta : MonoBehaviour
 
         _collider = ObterCollider(_estatuaGameObject);
         _collider.enabled = false;
+
         Debug.Log(_collider.enabled);
 
         if (VerificarEstatuas())

@@ -71355,7 +71355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoDialogo: {fileID: 11400000, guid: 44e5c6d93176a574dae6e75c34d40d53, type: 2}
   aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
-  tremor: {fileID: 0}
 --- !u!1 &1608184423
 GameObject:
   m_ObjectHideFlags: 0
@@ -71988,7 +71987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Clique no Bot\xE3o Direito do Mouse quando for necess\xE1rio arrastar
+  m_text: "Clique no Bot\xE3o Esquerdo do Mouse quando for necess\xE1rio arrastar
     ou clicar em espa\xE7os ou objetos"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -25,8 +25,8 @@ MonoBehaviour:
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
     _texto: "\xC9... Acho que desse jeito voc\xEA n\xE3o est\xE1 entendendo nada
       n\xE9?"
-  - _identificador: "[Two]: N\xE3o mesmo haha. Para mim s\xE3o s\xF3 n\xFAmeros."
-    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+  - _identificador: "[Gus]: N\xE3o mesmo haha. Para mim s\xE3o s\xF3 n\xFAmeros."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "N\xE3o mesmo haha. Para mim s\xE3o s\xF3 n\xFAmeros."
   - _identificador: "[Two]: Porque t\xE1 em bin\xE1rio, seu boc\xF3 haha! Mas olha
       s\xF3 o que diz:"
