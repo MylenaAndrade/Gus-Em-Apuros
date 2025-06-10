@@ -13,9 +13,27 @@ MonoBehaviour:
   m_Name: Caverna3
   m_EditorClassIdentifier: 
   dialogo:
-  - _identificador: "[Two]: Vamos entender do que se trata as Portas L\xF3gicas"
+  - _identificador: '[Two]: Agora vamos pra porta OR, ou OU, como a gente chama aqui.'
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Vamos entender do que se trata as Portas L\xF3gicas"
+    _texto: Agora vamos pra porta OR, ou OU, como a gente chama aqui.
+  - _identificador: "[Two]: Diferente da AND, a OR d\xE1 verdadeiro se pelo menos
+      uma entrada for verdadeira."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Diferente da AND, a OR d\xE1 verdadeiro se pelo menos uma entrada for
+      verdadeira."
+  - _identificador: "[Two]: Se as duas forem falsas, a\xED sim a sa\xEDda ser\xE1
+      falsa."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Se as duas forem falsas, a\xED sim a sa\xEDda ser\xE1 falsa."
+  - _identificador: "[Two]: \xC9 como perguntar: \u2018Gus vai estudar ou dormir?\u2019...
+      Se ele fizer qualquer um, j\xE1 \xE9 verdadeiro!"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "\xC9 como perguntar: \u2018Gus vai estudar ou dormir?\u2019... Se ele
+      fizer qualquer um, j\xE1 \xE9 verdadeiro!"
+  - _identificador: "[Two]: Pronto! Agora voc\xEA tem o b\xE1sico pra encarar qualquer
+      desafio l\xF3gico."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Pronto! Agora voc\xEA tem o b\xE1sico pra encarar qualquer desafio l\xF3gico."
   respostas: []
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

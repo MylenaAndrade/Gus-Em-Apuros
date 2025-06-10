@@ -2219,7 +2219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffc4e5058dda2d4fa6e3e8b95fa3867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 0b37d5433f46f444baf04aea4ac96b11, type: 2}
+  objetoDialogo: {fileID: 11400000, guid: 456ac1dba218e644f89f0f59f3756423, type: 2}
   aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
 --- !u!70 &399162774
 CapsuleCollider2D:

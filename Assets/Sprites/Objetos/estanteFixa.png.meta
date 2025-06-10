@@ -113,8 +113,71 @@ TextureImporter:
       name: estanteFixa_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 2
+        x: 1
+        y: 225
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dcb9c0605b6f84ea2fbe51ccaa354e
+      internalID: 716679453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 226
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df6211fcd1997488916ae6f17d27dd
+      internalID: 1220547075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 52
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49333838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff22b7b772ad064d831144f2500d940
+      internalID: 30031958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 146
         width: 51
         height: 72
       alignment: 0
@@ -124,8 +187,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56dcb9c0605b6f84ea2fbe51ccaa354e
-      internalID: 716679453
+      spriteID: 9af0576da37bdd4409e4188c43c94a7a
+      internalID: -826536349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 147
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a27fe8a0609ee41b1e967bfd4d0bda
+      internalID: -1836315618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab2ce610da564f4ba5d316eef806e3f
+      internalID: -186603575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estanteFixa_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 66
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd543d0c2d78d4e9887311891d81d0
+      internalID: -1563665426
       vertices: []
       indices: 
       edges: []
@@ -142,6 +268,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       estanteFixa_0: 716679453
+      estanteFixa_1: 1220547075
+      estanteFixa_2: 30031958
+      estanteFixa_3: -826536349
+      estanteFixa_4: -1836315618
+      estanteFixa_5: -186603575
+      estanteFixa_6: -1563665426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

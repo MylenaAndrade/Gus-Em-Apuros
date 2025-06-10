@@ -13,38 +13,30 @@ MonoBehaviour:
   m_Name: Papel2
   m_EditorClassIdentifier: 
   _falasDialogo:
-  - _identificador: "[Two]: Vamos entender do que se trata as Portas L\xF3gicas"
+  - _identificador: "[Two]: Hora de entender as portas l\xF3gicas, Gus!"
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Vamos entender do que se trata as Portas L\xF3gicas"
-  - _identificador: "[Two]: Portas l\xF3gicas s\xE3o como pequenos ajudantes eletr\xF4nicos
-      que tomam decis\xF5es simples com base em regras"
+    _texto: "Hora de entender as portas l\xF3gicas, Gus!"
+  - _identificador: "[Two]: Elas s\xE3o como ajudantes eletr\xF4nicos que tomam decis\xF5es
+      simples com base em entradas como 'verdadeiro' ou 'falso'."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Portas l\xF3gicas s\xE3o como pequenos ajudantes eletr\xF4nicos que
-      tomam decis\xF5es simples com base em regras"
-  - _identificador: '[Two]: Elas recebem entradas como "verdadeiro" ou "falso" '
+    _texto: "Elas s\xE3o como ajudantes eletr\xF4nicos que tomam decis\xF5es simples
+      com base em entradas como 'verdadeiro' ou 'falso'."
+  - _identificador: "[Two]: E a sa\xEDda tamb\xE9m \xE9 'verdadeiro' ou 'falso',
+      de acordo com a regra da porta."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: 'Elas recebem entradas como "verdadeiro" ou "falso" '
-  - _identificador: "[Two]: E produzem uma sa\xEDda tamb\xE9m como \"verdadeiro\"
-      ou \"falso\""
+    _texto: "E a sa\xEDda tamb\xE9m \xE9 'verdadeiro' ou 'falso', de acordo com a
+      regra da porta."
+  - _identificador: "[Two]: Existem v\xE1rias, mas vamos focar em duas: a porta AND
+      (E) e a porta OR (OU)."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "E produzem uma sa\xEDda tamb\xE9m como \"verdadeiro\" ou \"falso\""
-  - _identificador: "[Two]: Existem 3 tipos diferentes de portas l\xF3gicas. A porta
-      AND/E, a OR/OU e a NOT/N\xE3o"
+    _texto: "Existem v\xE1rias, mas vamos focar em duas: a porta AND (E) e a porta
+      OR (OU)."
+  - _identificador: "[Two]: A primeira \xE9 a porta AND: s\xF3 d\xE1 verdadeiro se
+      todas as entradas forem verdadeiras."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Existem 3 tipos diferentes de portas l\xF3gicas. A porta AND/E, a OR/OU
-      e a NOT/N\xE3o"
-  - _identificador: '[Two]: Mas iremos abordar apenas a porta AND/E e a OR/OU'
+    _texto: "A primeira \xE9 a porta AND: s\xF3 d\xE1 verdadeiro se todas as entradas
+      forem verdadeiras."
+  - _identificador: "[Two]: Se tiver uma falsa... j\xE1 era. A sa\xEDda ser\xE1 falsa
+      tamb\xE9m."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: Mas iremos abordar apenas a porta AND/E e a OR/OU
-  - _identificador: "[Two]: A primeira porta que ser\xE1 apresentada ser\xE1 a porta
-      AND/E"
-    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "A primeira porta que ser\xE1 apresentada ser\xE1 a porta AND/E"
-  - _identificador: "[Two]: Para que a sa\xEDda dessa porta seja verdadeira todas
-      as entradas devem ser verdadeiras"
-    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Para que a sa\xEDda dessa porta seja verdadeira todas as entradas devem
-      ser verdadeiras"
-  - _identificador: "[Two]: Caso contr\xE1rio, a sa\xEDda ser\xE1 falsa"
-    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Caso contr\xE1rio, a sa\xEDda ser\xE1 falsa"
+    _texto: "Se tiver uma falsa... j\xE1 era. A sa\xEDda ser\xE1 falsa tamb\xE9m."

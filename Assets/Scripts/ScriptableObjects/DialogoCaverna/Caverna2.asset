@@ -13,29 +13,33 @@ MonoBehaviour:
   m_Name: Caverna2
   m_EditorClassIdentifier: 
   dialogo:
-  - _identificador: "[Two]: No computador \xE9 usado o sistema bin\xE1rio onde se
-      utiliza apenas duas bases o 0 e o 1."
+  - _identificador: "[Two]: Hora de entender as portas l\xF3gicas, Gus!"
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "No computador \xE9 usado o sistema bin\xE1rio onde se utiliza apenas
-      duas bases o 0 e o 1."
-  - _identificador: "[Two]: Desde imagem a texto, tudo \xE9 convertido para o sistema
-      bin\xE1rio."
+    _texto: "Hora de entender as portas l\xF3gicas, Gus!"
+  - _identificador: "[Two]: Elas s\xE3o como ajudantes eletr\xF4nicos que tomam decis\xF5es
+      simples com base em entradas como 'verdadeiro' ou 'falso'."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Desde imagem a texto, tudo \xE9 convertido para o sistema bin\xE1rio."
-  - _identificador: "[Two]: Os n\xFAmeros 0 e 1 tamb\xE9m s\xE3o utilizado para o
-      que chamamos de \xE1lgebra booleana."
+    _texto: "Elas s\xE3o como ajudantes eletr\xF4nicos que tomam decis\xF5es simples
+      com base em entradas como 'verdadeiro' ou 'falso'."
+  - _identificador: "[Two]: E a sa\xEDda tamb\xE9m \xE9 'verdadeiro' ou 'falso',
+      de acordo com a regra da porta."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Os n\xFAmeros 0 e 1 tamb\xE9m s\xE3o utilizado para o que chamamos de
-      \xE1lgebra booleana."
-  - _identificador: '[Two]: Onde o 0 assume o valor FALSO e o 1 o valor VERDADEIRO.'
+    _texto: "E a sa\xEDda tamb\xE9m \xE9 'verdadeiro' ou 'falso', de acordo com a
+      regra da porta."
+  - _identificador: "[Two]: Existem v\xE1rias, mas vamos focar em duas: a porta AND
+      (E) e a porta OR (OU)."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: Onde o 0 assume o valor FALSO e o 1 o valor VERDADEIRO.
-  - _identificador: "[Two]: Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."
+    _texto: "Existem v\xE1rias, mas vamos focar em duas: a porta AND (E) e a porta
+      OR (OU)."
+  - _identificador: "[Two]: A primeira \xE9 a porta AND: s\xF3 d\xE1 verdadeiro se
+      todas as entradas forem verdadeiras."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."
-  - _identificador: "[Two]: Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."
+    _texto: "A primeira \xE9 a porta AND: s\xF3 d\xE1 verdadeiro se todas as entradas
+      forem verdadeiras."
+  - _identificador: "[Two]: Se tiver uma falsa... j\xE1 era. A sa\xEDda ser\xE1 falsa
+      tamb\xE9m."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
-    _texto: "Utilize esses novos conhecimentos para julgar as afirma\xE7\xF5es."
+    _texto: "Se tiver uma falsa... j\xE1 era. A sa\xEDda ser\xE1 falsa tamb\xE9m."
   respostas: []
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

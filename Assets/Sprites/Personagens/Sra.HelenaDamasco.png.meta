@@ -113,9 +113,9 @@ TextureImporter:
       name: Sra.HelenaDamasco_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 11
+        x: 0
+        y: 84
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -126,6 +126,90 @@ TextureImporter:
       bones: []
       spriteID: 104a0f83e0227194e87e62e483ca915d
       internalID: 1811033901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sra.HelenaDamasco_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc980f16fb7e4149a400af38b6c9692
+      internalID: -764251214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sra.HelenaDamasco_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a223b77fdb914596ff1812451592e
+      internalID: 1356700258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sra.HelenaDamasco_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5836d24b849299147953928cf349dbae
+      internalID: 645564357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sra.HelenaDamasco_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960aa3d4b0b6ccd47b427c9dfc8e7001
+      internalID: -973389198
       vertices: []
       indices: 
       edges: []
@@ -142,6 +226,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Sra.HelenaDamasco_0: 1811033901
+      Sra.HelenaDamasco_1: -764251214
+      Sra.HelenaDamasco_2: 1356700258
+      Sra.HelenaDamasco_3: 645564357
+      Sra.HelenaDamasco_4: -973389198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
