@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 71507198b959b324db36c305c8155cf1
+guid: 36e536051c103464fa4e0e36dc6ff3c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: patinhaInteracao_0
+      name: objetosPrefeitura_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 27
-        height: 25
+        x: 4
+        y: 149
+        width: 24
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd2ff7129a22fe4d92a69460280be92
-      internalID: -1759708982
+      spriteID: db8aa338691dffc47a0a632335300612
+      internalID: 92803911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosPrefeitura_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 145
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc240ea35c5694cb3759bbd6b9aba7
+      internalID: 604108155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosPrefeitura_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 149
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2756dd189efb12c4d851823e846c37fc
+      internalID: -868419574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosPrefeitura_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75e661da1ffac542a80a1e73425739e
+      internalID: 940490916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosPrefeitura_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 54
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f09063bfa930042bb0adcccffc85b2
+      internalID: -292011478
       vertices: []
       indices: 
       edges: []
@@ -141,7 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      patinhaInteracao_0: -1759708982
+      objetosPrefeitura_0: 92803911
+      objetosPrefeitura_1: 604108155
+      objetosPrefeitura_2: -868419574
+      objetosPrefeitura_3: 940490916
+      objetosPrefeitura_4: -292011478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

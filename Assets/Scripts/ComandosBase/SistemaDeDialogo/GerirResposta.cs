@@ -63,7 +63,6 @@ public class GerirResposta : MonoBehaviour
         caixaDeResposta.gameObject.SetActive(false);
         
         objResposta.Clicou = true;
-
         foreach(GameObject button in tempBotaoResposta){
             Destroy(button);
         }

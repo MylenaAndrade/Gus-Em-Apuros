@@ -118,7 +118,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,6 +126,69 @@ TextureImporter:
       bones: []
       spriteID: a4c6e9ba9add1e44db64f13550039e6c
       internalID: -708771537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a0d733f58d04e48a022f316d7fd0ef
+      internalID: -1430605335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbb0bc852ba56941b0e27dbb6a7f7b6
+      internalID: 1781134252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 46
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce78afbcfad72444abec8aeeeb31a31
+      internalID: -2011403342
       vertices: []
       indices: 
       edges: []
@@ -142,6 +205,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       PrefeitaCPU_0: -708771537
+      PrefeitaCPU_1: -1430605335
+      PrefeitaCPU_2: 1781134252
+      PrefeitaCPU_3: -2011403342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

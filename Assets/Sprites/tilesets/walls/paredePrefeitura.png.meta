@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae9a31ce73d1daf45a6d2589ad244dad
+guid: 506b13ac1f442c94885f9779551627ec
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,28 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paredeCaverna_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 68
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c3c28a0c489ac24bbb117f88933aa52
-      internalID: 2119301022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_1
+      name: paredePrefeitura_0
       rect:
         serializedVersion: 2
         x: 16
@@ -145,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c40c67a36596a148977a7b0e2544a3a
-      internalID: 148559941
+      spriteID: 432b43e57f881034ca7232d779a477f5
+      internalID: -1911875512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_2
+      name: paredePrefeitura_1
       rect:
         serializedVersion: 2
         x: 32
@@ -166,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd9c37d21c9c6343a088829df3580df
-      internalID: 824516504
+      spriteID: 555e98b034c47e441b9de1ab0841ea0b
+      internalID: -572867041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_3
+      name: paredePrefeitura_2
       rect:
         serializedVersion: 2
         x: 48
@@ -187,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad98ce579e3dc854cb89e240933bdd14
-      internalID: -1485071586
+      spriteID: 2215f0e362ed032458349a52d6b6f3c1
+      internalID: -1416018248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_4
+      name: paredePrefeitura_3
       rect:
         serializedVersion: 2
         x: 64
@@ -208,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d061846ed5aa15343807cfdc9205c36c
-      internalID: -1949749614
+      spriteID: ad740f2840b3a6a4f870c7bee3d18f61
+      internalID: -106158365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_5
+      name: paredePrefeitura_4
       rect:
         serializedVersion: 2
         x: 80
@@ -229,228 +208,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5834ca2658a30be45b388dccd22c6679
-      internalID: -783850528
+      spriteID: 22c25deefc1c0954dae0b9c6cad3a3ec
+      internalID: -170173312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2858e12eee44b214da52bcdc3de6a1a5
-      internalID: -137894938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2695d0875e70e414a8f08b4673958fab
-      internalID: 1316762738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_8
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a701cb3c7be39243a8b14941e32e9db
-      internalID: -496528172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_9
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce1db4265a6ea134b9b769a6ac67d7ec
-      internalID: -199771956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_10
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4983012fc6fe48040a430e0aa4a0a168
-      internalID: 299993090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_11
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 36
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad4cc7b2bf133e740ae8fffac92addb2
-      internalID: 757272429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_12
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 36
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04de54207bf021c4bbca7eb774b63d50
-      internalID: 1176328631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_13
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 36
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 425b23b71d9acfc4aa79f8d02b43d0af
-      internalID: -800802723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_14
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 36
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccb9e59889bde5b49b093431ee49228f
-      internalID: 455048839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 20
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6922f2813b9be34f9aa1049d6654a71
-      internalID: -270776804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_16
+      name: paredePrefeitura_5
       rect:
         serializedVersion: 2
         x: 16
-        y: 20
+        y: 52
         width: 16
         height: 16
       alignment: 0
@@ -460,17 +229,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b5f396158484d443b2d2ce38f7a05f8
-      internalID: -2095062275
+      spriteID: d95c1018f1efc1340a605fdf61ea583f
+      internalID: -2049973216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_17
+      name: paredePrefeitura_6
       rect:
         serializedVersion: 2
         x: 32
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427e496565e99346b61d6a3696d15fc
+      internalID: -202961155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ef90ebd7b0f1341a725c4cd7c59ed2
+      internalID: 44753136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d121271214124714b98fcf6662b535a2
+      internalID: -809556671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffedd8f3fbfcf75458e486325381de45
+      internalID: 1146582192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf51a7ef875ad0e4bb34ab82142459d1
+      internalID: 422425298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c52296c034cec140a080c5edce1aaa3
+      internalID: 698247063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6365d17b97fbd4781aa8c2ae2f5b9d
+      internalID: -1026276053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5accd4c9f62da4340b3848f0acba7ddc
+      internalID: -20917756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd306d739a5978489898a4b290e9931
+      internalID: -523642169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_15
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 20
         width: 16
         height: 16
@@ -481,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f70a14ebbac6e4aa7927d91d3073d8
-      internalID: 478502534
+      spriteID: 86f1ed222444ead4fa67e0c74f3359b3
+      internalID: 1358842173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_18
+      name: paredePrefeitura_16
       rect:
         serializedVersion: 2
         x: 48
@@ -502,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e061226314b7196448003c6cf4b608e7
-      internalID: 511849356
+      spriteID: 0fef9e172cce3f44096da699c560cd93
+      internalID: 888069966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_19
+      name: paredePrefeitura_17
       rect:
         serializedVersion: 2
         x: 64
@@ -523,14 +481,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d09e0a6ae2c54ea4b8e663a237a15e24
-      internalID: 1667782499
+      spriteID: f08536854cbef1d44b2b7a5406e0fbaa
+      internalID: 2069582787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_20
+      name: paredePrefeitura_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5dfbba87b85cb48b275aa8729c05b4
+      internalID: -199415585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cfc0da915e4ac40b89778bae40472f
+      internalID: 1201963690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_20
       rect:
         serializedVersion: 2
         x: 32
@@ -544,50 +544,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb51e61cfab1e3442a29214f433f1b59
-      internalID: -198748449
+      spriteID: e0d3790c6c9eb0c45b69bb1493d99759
+      internalID: -296660744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredeCaverna_21
+      name: paredePrefeitura_21
       rect:
         serializedVersion: 2
-        x: 80
-        y: 20
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43ea20b7bb6916741a4f6ce7d6986eb0
-      internalID: 875516263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredeCaverna_22
-      rect:
-        serializedVersion: 2
-        x: 80
+        x: 48
         y: 4
         width: 16
         height: 16
       alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1eaf9b43192e54eab050206dde4de1
+      internalID: -1382391195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac41194d96a06459be997b5745260f
+      internalID: 1599694253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredePrefeitura_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a01753b760278742ac284d1af8e0e50
-      internalID: -1547052015
+      spriteID: 544e10259efd681419fe0b9d36299615
+      internalID: -1033977754
       vertices: []
       indices: 
       edges: []
@@ -603,29 +624,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      paredeCaverna_0: 2119301022
-      paredeCaverna_1: 148559941
-      paredeCaverna_10: 299993090
-      paredeCaverna_11: 757272429
-      paredeCaverna_12: 1176328631
-      paredeCaverna_13: -800802723
-      paredeCaverna_14: 455048839
-      paredeCaverna_15: -270776804
-      paredeCaverna_16: -2095062275
-      paredeCaverna_17: 478502534
-      paredeCaverna_18: 511849356
-      paredeCaverna_19: 1667782499
-      paredeCaverna_2: 824516504
-      paredeCaverna_20: -198748449
-      paredeCaverna_21: 875516263
-      paredeCaverna_22: -1547052015
-      paredeCaverna_3: -1485071586
-      paredeCaverna_4: -1949749614
-      paredeCaverna_5: -783850528
-      paredeCaverna_6: -137894938
-      paredeCaverna_7: 1316762738
-      paredeCaverna_8: -496528172
-      paredeCaverna_9: -199771956
+      paredePrefeitura_0: -1911875512
+      paredePrefeitura_1: -572867041
+      paredePrefeitura_10: 422425298
+      paredePrefeitura_11: 698247063
+      paredePrefeitura_12: -1026276053
+      paredePrefeitura_13: -20917756
+      paredePrefeitura_14: -523642169
+      paredePrefeitura_15: 1358842173
+      paredePrefeitura_16: 888069966
+      paredePrefeitura_17: 2069582787
+      paredePrefeitura_18: -199415585
+      paredePrefeitura_19: 1201963690
+      paredePrefeitura_2: -1416018248
+      paredePrefeitura_20: -296660744
+      paredePrefeitura_21: -1382391195
+      paredePrefeitura_22: 1599694253
+      paredePrefeitura_23: -1033977754
+      paredePrefeitura_3: -106158365
+      paredePrefeitura_4: -170173312
+      paredePrefeitura_5: -2049973216
+      paredePrefeitura_6: -202961155
+      paredePrefeitura_7: 44753136
+      paredePrefeitura_8: -809556671
+      paredePrefeitura_9: 1146582192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
