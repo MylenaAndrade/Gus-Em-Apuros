@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Biblioteca4
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[SSD]: Pessoal olha s\xF3 o que eu encontrei aqui brilhando.
+      O cap\xEDtulo sobre\u2026 Sistema de Arquivos do Livro Sistema Operacional! "
+    _ator: {fileID: 11400000, guid: 0bf94c488772c394c86a5d90fcf9709f, type: 2}
+    _texto: "Pessoal olha s\xF3 o que eu encontrei aqui brilhando. O cap\xEDtulo
+      sobre\u2026 Sistema de Arquivos do Livro Sistema Operacional! "
+  respostas:
+  - textoResposta: "Mas como achou um cap\xEDtulo se o livro foi roubado? "
+    objetoDialogo: {fileID: 11400000, guid: 0efec6d3506711c4eb7e0296ea566740, type: 2}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

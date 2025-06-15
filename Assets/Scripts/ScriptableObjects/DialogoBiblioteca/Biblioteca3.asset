@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
-  m_Name: CoclusaoOrganizarLivros
+  m_Name: Biblioteca3
   m_EditorClassIdentifier: 
   dialogo:
   - _identificador: "[Sra. HD]: Ufa! Que al\xEDvio ver tudo no lugar outra vez\u2026
@@ -49,16 +49,8 @@ MonoBehaviour:
     _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
     _texto: "Exatamente, Two! Essas s\xE3o habilidades essenciais pra entender e
       resolver problemas."
-  - _identificador: "[Gus]: Caramba e eu achando que eu estava usando s\xF3 l\xF3gica."
-    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Caramba e eu achando que eu estava usando s\xF3 l\xF3gica."
-  - _identificador: "[SSD]: Pessoal olha s\xF3 o que eu encontrei aqui brilhando.
-      O cap\xEDtulo sobre\u2026 Sistema de Arquivos do Livro Sistema Operacional! "
-    _ator: {fileID: 11400000, guid: 0bf94c488772c394c86a5d90fcf9709f, type: 2}
-    _texto: "Pessoal olha s\xF3 o que eu encontrei aqui brilhando. O cap\xEDtulo
-      sobre\u2026 Sistema de Arquivos do Livro Sistema Operacional! "
   respostas:
-  - textoResposta: "Mas como achou um cap\xEDtulo se o livro foi roubado? "
-    objetoDialogo: {fileID: 11400000, guid: 0efec6d3506711c4eb7e0296ea566740, type: 2}
+  - textoResposta: "Caramba e eu achando que eu estava usando s\xF3 l\xF3gica."
+    objetoDialogo: {fileID: 11400000, guid: 7f59e1e746c440145a3600d020ff53cd, type: 2}
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

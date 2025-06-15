@@ -601,7 +601,7 @@ TextureImporter:
         width: 31
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -609,6 +609,90 @@ TextureImporter:
       bones: []
       spriteID: 200afb1bbb77e43458ab9f6fdf9f3c7b
       internalID: 1212768501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosBiblioteca_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 62
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc330bd2088a4c459dc9e8458cedf5c
+      internalID: 39727472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosBiblioteca_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d0488faba7df74c8b4773eacdba32f
+      internalID: -2008505379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosBiblioteca_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 62
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912e7b418ad5fd84d82c970b406125ca
+      internalID: -188573008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosBiblioteca_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 62
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927702276d5aab84f81b06e3c431da48
+      internalID: 21443332
       vertices: []
       indices: 
       edges: []
@@ -641,6 +725,10 @@ TextureImporter:
       objetosBiblioteca_21: 1681421110
       objetosBiblioteca_22: 1468151329
       objetosBiblioteca_23: 1212768501
+      objetosBiblioteca_24: 39727472
+      objetosBiblioteca_25: -2008505379
+      objetosBiblioteca_26: -188573008
+      objetosBiblioteca_27: 21443332
       objetosBiblioteca_3: 784302141
       objetosBiblioteca_4: 369430119
       objetosBiblioteca_5: -1096365814
