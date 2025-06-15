@@ -35,10 +35,11 @@ public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
                 Destroy(objetoArmazenado);
             }
 
-            if (player.InteracaoD is AtivadorDeObjetos dialogueObject && dialogueObject == this)
+            if (player.InteracaoObjeto is AtivadorDeObjetos interacaoObject && interacaoObject == this)
             {
                 player.InteracaoObjeto = null;
             }
+            Debug.Log(player.InteracaoObjeto == null ? "Interação removida com sucesso." : "Erro ao remover interação.");
         }
     }
 

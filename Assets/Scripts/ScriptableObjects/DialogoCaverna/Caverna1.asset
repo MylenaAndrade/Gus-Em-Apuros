@@ -49,11 +49,10 @@ MonoBehaviour:
     _texto: "Julgue se s\xE3o verdadeiras ou falsas. Acertando, a est\xE1tua mudar\xE1
       de cor. Errando... todas reiniciam."
   - _identificador: "[Two]: Ah, e lembre-se: no computador, usamos 0 para FALSO e
-      1 para VERDADEIRO. \xC9 a tal da \xE1lgebra booleana. Use essa l\xF3gica pra
-      avan\xE7ar."
+      1 para VERDADEIRO. Use essa l\xF3gica pra avan\xE7ar."
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
     _texto: "Ah, e lembre-se: no computador, usamos 0 para FALSO e 1 para VERDADEIRO.
-      \xC9 a tal da \xE1lgebra booleana. Use essa l\xF3gica pra avan\xE7ar."
+      Use essa l\xF3gica pra avan\xE7ar."
   respostas: []
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

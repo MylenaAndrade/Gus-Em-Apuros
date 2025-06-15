@@ -32,10 +32,12 @@ MonoBehaviour:
     _texto: "Voc\xEA n\xE3o se lembra como chegou aqui, n\xE3o \xE9? Ningu\xE9m lembra.
       Mas talvez isso nem importe. Porque agora... Voc\xEA tem uma miss\xE3o."
   - _identificador: "[Two]: O mundo computacional, onde ideias ganham forma e dados
-      t\xEAm alma... est\xE1 em colapso. O Livro do Sistema Operacional foi roubado. "
+      t\xEAm alma... est\xE1 em colapso. O Livro do Sistema Operacional foi roubado
+      pelo Mister Bug. "
     _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
     _texto: "O mundo computacional, onde ideias ganham forma e dados t\xEAm alma...
-      est\xE1 em colapso. O Livro do Sistema Operacional foi roubado. "
+      est\xE1 em colapso. O Livro do Sistema Operacional foi roubado pelo Mister
+      Bug. "
   - _identificador: "[Two]: Sem ele, tudo est\xE1 se fragmentando \u2014 mem\xF3rias,
       fun\xE7\xF5es, at\xE9 as leis da l\xF3gica. Os habitantes de Citybyte precisam
       de voc\xEB."
