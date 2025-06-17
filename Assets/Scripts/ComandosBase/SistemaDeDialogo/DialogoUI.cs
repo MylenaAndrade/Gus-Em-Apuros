@@ -22,13 +22,18 @@ public class DialogoUI : MonoBehaviour
     private EfeitoDeEscrita efeitoDeEscrita;
     private bool bloquearTeclado = false;
     bool timelineTerminou = false;
-
+    private string nomeCenaAtual;
 
     private void Start()
     {
         efeitoDeEscrita = GetComponent<EfeitoDeEscrita>();
         gerirResposta = GetComponent<GerirResposta>();
-        FecharCaixaDeDialogo();
+        nomeCenaAtual = SceneManager.GetActiveScene().name;
+
+        if (nomeCenaAtual != "Floresta1")
+        {
+            FecharCaixaDeDialogo();
+        }
     }
 
     public void MostrarDialogo(ObjetoDialogo objetoDialogo)

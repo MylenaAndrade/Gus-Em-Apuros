@@ -5827,7 +5827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2028668631, guid: 76a57b67a7ab0bc48b192839eda23aa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7715,7 +7715,6 @@ GameObject:
   - component: {fileID: 1490868865}
   - component: {fileID: 1490868864}
   - component: {fileID: 1490868863}
-  - component: {fileID: 1490868869}
   m_Layer: 0
   m_Name: Sra.HelenaDamasco_0
   m_TagString: Untagged
@@ -7782,10 +7781,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetoDialogo: {fileID: 11400000, guid: 43b051a7f6c92c04298d08011e9e9429, type: 2}
   eventos:
-  - nome: "Mas como pode ter achado um cap\xEDtulo se o livro foi roubado? "
+  - nome: "Caramba e eu achando que eu estava usando s\xF3 l\xF3gica."
     respostaEscolhida:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 2138132385}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 308981509}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
@@ -7798,13 +7809,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 2138132385}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
+        - m_Target: {fileID: 1490868865}
+          m_TargetAssemblyTypeName: AtivadorDeDialogo, Assembly-CSharp
+          m_MethodName: AtualizarObjetoDialogo
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 11400000, guid: eac20f007f3806448a8b0fb13bba3edf, type: 2}
+            m_ObjectArgumentAssemblyTypeName: ObjetoDialogo, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -7926,36 +7937,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1490868869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490868862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4beae9a270aa0994aa7c0774a5fe70d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 11400000, guid: 43b051a7f6c92c04298d08011e9e9429, type: 2}
-  eventos:
-  - nome: "Caramba e eu achando que eu estava usando s\xF3 l\xF3gica."
-    respostaEscolhida:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2138132385}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
 --- !u!1 &1534732077
 GameObject:
   m_ObjectHideFlags: 0

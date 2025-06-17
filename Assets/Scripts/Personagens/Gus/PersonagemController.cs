@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PersonagemController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PersonagemController : MonoBehaviour
     public float        personagemVelocidade;
     private Vector2     personagemDirecao;
     private Animator animator;
+    private string nomeCenaAtual;
 
 
     // Start is called before the first frame update
@@ -19,6 +21,7 @@ public class PersonagemController : MonoBehaviour
     {
         personagemRigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        nomeCenaAtual = SceneManager.GetActiveScene().name;
     }
 
     void Update()
@@ -38,7 +41,7 @@ public class PersonagemController : MonoBehaviour
     {
         if (EntradaBloqueada.tecladoBloqueado) return;
         if (dialogoUI.estaAberto) return;
-          personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         if(personagemDirecao.sqrMagnitude > 0.1)
         {
 
@@ -46,13 +49,17 @@ public class PersonagemController : MonoBehaviour
             animator.SetFloat("AxisY", personagemDirecao.y);
             
             animator.SetInteger("Movement", 1);
+            
         }
-        else
+            else
+            {
+                animator.SetInteger("Movement", 0);
+            }
+
+        if (nomeCenaAtual != "Floresta1")
         {
-            animator.SetInteger("Movement", 0);
+            personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
         }
-        
-        personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
 
     }
 

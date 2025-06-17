@@ -3,6 +3,7 @@ using System.Numerics;
 using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
+using UnityEngine.SceneManagement;
 
 public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 {
@@ -13,17 +14,18 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
     private PersonagemController playerConfig;
 
     private bool podeVerificarResposta;
+    private string nomeCenaAtual;
 
 
     private void Start()
     {
+        nomeCenaAtual = SceneManager.GetActiveScene().name;
         podeVerificarResposta = true;
 
     }
 
     private void Update()
     {
-
         if (playerConfig != null)
         {
             bool clicou = playerConfig.DialogoUI.GerirResposta.ObjResposta.Clicou;
@@ -50,12 +52,17 @@ public class AtivadorDeDialogo : MonoBehaviour, IInteracaoDialogo
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.CompareTag("Player") && other.TryGetComponent(out PersonagemController player))
         {
-            if(aperteE != null){
-                objetoArmazenado = Instantiate(aperteE, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+            if (aperteE != null)
+            {
+                if (nomeCenaAtual != "Floresta1")
+                {
+                    objetoArmazenado = Instantiate(aperteE, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+                }
             }
-            
+
             player.InteracaoD = this;
         }
     }
