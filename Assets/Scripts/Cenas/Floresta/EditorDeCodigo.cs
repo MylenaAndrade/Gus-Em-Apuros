@@ -18,6 +18,11 @@ public class EditorDeCodigo : MonoBehaviour
     private List<string> comandos = new List<string>();
     private bool executando = false;
 
+    [SerializeField] private DialogoUI dialogoUI;
+    public DialogoUI DialogoUI => dialogoUI;
+    private Rigidbody2D personagemRb;
+
+
     public void ComandoDireita() => AdicionarComando("MoverParaDireita");
     public void ComandoEsquerda() => AdicionarComando("MoverParaEsquerda");
     public void ComandoCima() => AdicionarComando("MoverParaCima");
@@ -26,10 +31,13 @@ public class EditorDeCodigo : MonoBehaviour
     private void Start()
     {
         Vector3 posicaoOriginal = personagem.position;
+        personagemRb = personagem.GetComponent<Rigidbody2D>();
+
     }
 
     private void AdicionarComando(string nomeFuncao)
     {
+        if (dialogoUI.estaAberto) return;
         if (executando) return;
 
         comandos.Add(nomeFuncao);
@@ -62,6 +70,10 @@ public class EditorDeCodigo : MonoBehaviour
     private IEnumerator ExecutarSequencia()
     {
         executando = true;
+
+        // Ativar modo automático
+        PersonagemController controller = personagem.GetComponent<PersonagemController>();
+        if (controller != null) controller.movimentoAutomatico = true;
 
         // 1. Salvar posição original
         Vector3 posicaoOriginal = personagem.position;
@@ -107,6 +119,9 @@ public class EditorDeCodigo : MonoBehaviour
             yield return StartCoroutine(MoverPersonagem(posicaoOriginal));
         }
 
+        // Desativar modo automático
+        if (controller != null) controller.movimentoAutomatico = false;
+
         // 3. Resetar flags e encerrar
         chegouNoFim = false;
         colidiuComObstaculo = false;
@@ -127,12 +142,13 @@ public class EditorDeCodigo : MonoBehaviour
 
         while (tempo < duracao)
         {
-            personagem.position = Vector3.Lerp(origem, destino, tempo / duracao);
+            Vector3 novaPosicao = Vector3.Lerp(origem, destino, tempo / duracao);
+            personagemRb.MovePosition(novaPosicao);
             tempo += Time.deltaTime;
             yield return null;
         }
 
-        personagem.position = destino;
+        personagemRb.MovePosition(destino);
         animator.SetInteger("Movement", 0); // parou
     }
 

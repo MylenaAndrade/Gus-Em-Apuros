@@ -10,10 +10,12 @@ public class PersonagemController : MonoBehaviour
     public IInteracaoDialogo InteracaoD { get; set; }
     public IInteracaoObjeto InteracaoObjeto { get; set; }
     private Rigidbody2D personagemRigidbody2D;
-    public float        personagemVelocidade;
-    private Vector2     personagemDirecao;
+    public float personagemVelocidade;
+    private Vector2 personagemDirecao;
     private Animator animator;
     private string nomeCenaAtual;
+
+    public bool movimentoAutomatico = false;
 
 
     // Start is called before the first frame update
@@ -26,7 +28,7 @@ public class PersonagemController : MonoBehaviour
 
     void Update()
     {
-        
+
         if (dialogoUI.estaAberto) return;
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -39,39 +41,38 @@ public class PersonagemController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (EntradaBloqueada.tecladoBloqueado) return;
-        if (dialogoUI.estaAberto) return;
-        personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        if(personagemDirecao.sqrMagnitude > 0.1)
-        {
+    if (EntradaBloqueada.tecladoBloqueado || movimentoAutomatico || nomeCenaAtual != "Floresta1") return;
+    if (dialogoUI.estaAberto) return;
 
-            animator.SetFloat("AxisX", personagemDirecao.x);
-            animator.SetFloat("AxisY", personagemDirecao.y);
-            
-            animator.SetInteger("Movement", 1);
-            
-        }
-            else
-            {
-                animator.SetInteger("Movement", 0);
-            }
+    personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        if (nomeCenaAtual != "Floresta1")
-        {
-            personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
-        }
-
+    if (personagemDirecao.sqrMagnitude > 0.1)
+    {
+        animator.SetFloat("AxisX", personagemDirecao.x);
+        animator.SetFloat("AxisY", personagemDirecao.y);
+        animator.SetInteger("Movement", 1);
     }
+    else
+    {
+        animator.SetInteger("Movement", 0);
+    }
+
+    if (nomeCenaAtual != "Floresta1")
+    {
+        personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
+    }
+}
+
 
     void Flip()
     {
-        if(personagemDirecao.x > 0)
+        if (personagemDirecao.x > 0)
         {
             transform.eulerAngles = new Vector2(0f, 0f);
         }
-        else if(personagemDirecao.x < 0)
+        else if (personagemDirecao.x < 0)
         {
             transform.eulerAngles = new Vector2(0f, 180f);
-        }  
+        }
     }
 }

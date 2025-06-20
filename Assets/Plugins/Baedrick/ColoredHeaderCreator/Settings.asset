@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   headerSettings:
-    headerText: npc
+    headerText: "Cen\xE1rio"
     headerColor: {r: 0.6431373, g: 0.105882354, b: 0.5803922, a: 1}
     textAlignmentOptions: 0
     fontStyleOptions: 0
