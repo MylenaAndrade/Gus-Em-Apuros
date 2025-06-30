@@ -45256,6 +45256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogoUI: {fileID: 1608184427}
   personagemVelocidade: 2
+  movimentoAutomatico: 0
 --- !u!1 &1036244884
 GameObject:
   m_ObjectHideFlags: 0
@@ -56036,7 +56037,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200362808}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 

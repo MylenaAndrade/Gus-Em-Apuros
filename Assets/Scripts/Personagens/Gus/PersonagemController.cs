@@ -41,7 +41,7 @@ public class PersonagemController : MonoBehaviour
 
     void FixedUpdate()
     {
-    if (EntradaBloqueada.tecladoBloqueado || movimentoAutomatico || nomeCenaAtual != "Floresta1") return;
+    if (EntradaBloqueada.tecladoBloqueado || movimentoAutomatico) return;
     if (dialogoUI.estaAberto) return;
 
     personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));

@@ -51,9 +51,9 @@ MonoBehaviour:
       antes."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Algor\xEDtimo. Eu j\xE1 escutei a Myla, falando disso antes."
-  - _identificador: "[Gus]: Lembro que ela disse que s\xE3o instru\xE7\xF5es/comandos."
+  - _identificador: "[Gus]: Lembro que ela disse que s\xE3o instru\xE7\xF5es."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Lembro que ela disse que s\xE3o instru\xE7\xF5es/comandos."
+    _texto: "Lembro que ela disse que s\xE3o instru\xE7\xF5es."
   - _identificador: "[Gus]: E se que eu desse comandos para me movimentar? O que
       custa tentar n\xE9?"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}

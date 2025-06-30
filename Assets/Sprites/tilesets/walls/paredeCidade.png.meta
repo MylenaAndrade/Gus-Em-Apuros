@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b380501616aefaf42be8e8f82a6b54df
+guid: e487dfcc5388afd47996f0eafa9da1d9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,137 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chaoFloresta_0
+      name: paredeCidade_0
       rect:
         serializedVersion: 2
         x: 0
         y: 84
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d5762b2733984b408fc71172a3f35f8
-      internalID: 759866441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 84
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d28689be977105c40923145995d93005
-      internalID: 1831319993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 84
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b8272119652071458da4813423e9d21
-      internalID: 1038047550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 68
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecb914fe03e55564888e7946eb75c054
-      internalID: -1259754768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 68
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81541c06e2370984c85ebb2d6941bc75
-      internalID: 39326972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_5
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 52
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79086f1011636f9448b4942081167c90
-      internalID: 2136722918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chaoFloresta_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 36
         width: 16
         height: 16
       alignment: 0
@@ -250,8 +124,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8552be634cfb33c47a5b5bcaaf71c88f
-      internalID: 2129457493
+      spriteID: 8c41db3187ff6fc44887d9d67d0d87ec
+      internalID: -140708269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c92c93186db3a34aa15ae3b3e244dc6
+      internalID: 758560707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e9fba8bc2784b4cab86dd2d1b757b8
+      internalID: 393152875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cce99548df04dd4fb7a035dd03ed062
+      internalID: -1589800608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5a25b7ab80210409dc1d7da81f5c08
+      internalID: -1207422733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f89ca23702fb9248ace6b8878d3924b
+      internalID: 828926666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef7dbe5c8c8944408cc78fa5a842d95
+      internalID: -1003964162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paredeCidade_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bd9d2245af187438270149cd510a98
+      internalID: -1463172449
       vertices: []
       indices: 
       edges: []
@@ -267,13 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chaoFloresta_0: 759866441
-      chaoFloresta_1: 1831319993
-      chaoFloresta_2: 1038047550
-      chaoFloresta_3: -1259754768
-      chaoFloresta_4: 39326972
-      chaoFloresta_5: 2136722918
-      chaoFloresta_6: 2129457493
+      paredeCidade_0: -140708269
+      paredeCidade_1: 758560707
+      paredeCidade_2: 393152875
+      paredeCidade_3: -1589800608
+      paredeCidade_4: -1207422733
+      paredeCidade_5: 828926666
+      paredeCidade_6: -1003964162
+      paredeCidade_7: -1463172449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

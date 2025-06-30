@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1fa4bacb52b156345888505a1748aed2
+guid: 55167c6253e213c41b4953ad1f6c9bc9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: setaRestart_0
+      name: Caverna_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 14
+        y: 24
+        width: 121
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e1e2c4c515bbac4f84736d0330abea4
-      internalID: -1580965659
+      spriteID: 35b879c79beccbe49aa8b1e25136b055
+      internalID: -1721525498
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      setaRestart_0: -1580965659
+      Caverna_0: -1721525498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
