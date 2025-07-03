@@ -113,12 +113,12 @@ TextureImporter:
       name: tabelaVerdade_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 6
+        x: 1
+        y: 3
         width: 74
-        height: 98
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,6 +126,27 @@ TextureImporter:
       bones: []
       spriteID: d7a6a06175f65e142a9e520906cb081a
       internalID: -730906908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabelaVerdade_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae5c45e94802474c942d3572015581e
+      internalID: 1184505887
       vertices: []
       indices: 
       edges: []
@@ -142,6 +163,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tabelaVerdade_0: -730906908
+      tabelaVerdade_1: 1184505887
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

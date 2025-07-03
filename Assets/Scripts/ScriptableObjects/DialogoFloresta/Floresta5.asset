@@ -13,16 +13,20 @@ MonoBehaviour:
   m_Name: Floresta5
   m_EditorClassIdentifier: 
   dialogo:
-  - _identificador: "[Gus]: Agora sim, estou preparado para dar instru\xE7\xF5es
-      de movimento para conseguir sair daqui."
+  - _identificador: "[Gus]: Nem acredito que funcionou. Agoras s\xF3 tenho que lembrar
+      algo importante que a Myla falava sobre os algor\xEDtmos..."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Agora sim, estou preparado para dar instru\xE7\xF5es de movimento para
-      conseguir sair daqui."
-  - _identificador: "[Gus]: Eu s\xF3 tenho que me lembrar que as intru\xE7\xF5es
-      s\xE3o sequenciais e precisam ser precisas. Vamos l\xE1 sair logo daqui!"
+    _texto: "Nem acredito que funcionou. Agoras s\xF3 tenho que lembrar algo importante
+      que a Myla falava sobre os algor\xEDtmos..."
+  - _identificador: "[Gus]: Ae verdade, eu preciso dar instru\xE7\xF5es de movimento
+      sequenciais e precisas para que eu consiga sair daqui."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Eu s\xF3 tenho que me lembrar que as intru\xE7\xF5es s\xE3o sequenciais
-      e precisam ser precisas. Vamos l\xE1 sair logo daqui!"
+    _texto: "Ae verdade, eu preciso dar instru\xE7\xF5es de movimento sequenciais
+      e precisas para que eu consiga sair daqui."
+  - _identificador: "[Gus]: Agora s\xF3 preciso sair daqui o mais r\xE1pido poss\xEDvel!
+      Bora l\xE1"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Agora s\xF3 preciso sair daqui o mais r\xE1pido poss\xEDvel! Bora l\xE1"
   respostas: []
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

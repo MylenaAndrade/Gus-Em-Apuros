@@ -16,6 +16,9 @@ MonoBehaviour:
   - _identificador: "[Gus]: Olha s\xF3 funcionou apareceu o primeiro comando da instru\xE7\xE3o."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Olha s\xF3 funcionou apareceu o primeiro comando da instru\xE7\xE3o."
+  - _identificador: '[Gus]: Que tal esse agora:'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: 'Que tal esse agora:'
   respostas:
   - textoResposta: Mover para baixo
     objetoDialogo: {fileID: 11400000, guid: bd19f1ac40d060947b16bd1a7168ecda, type: 2}

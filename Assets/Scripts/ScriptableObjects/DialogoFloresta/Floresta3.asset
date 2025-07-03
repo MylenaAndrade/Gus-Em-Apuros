@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Floresta3
   m_EditorClassIdentifier: 
   dialogo:
-  - _identificador: '[Gus]: Agora que tal eu tentar ir para a direita?'
+  - _identificador: "[Gus]: \xD3timo! E agora que tal eu tentar para a direita?"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: Agora que tal eu tentar ir para a direita?
+    _texto: "\xD3timo! E agora que tal eu tentar para a direita?"
   respostas:
   - textoResposta: Virar para direita
     objetoDialogo: {fileID: 11400000, guid: 4d1566ce6afe0534bbece6b8c3b3fd6a, type: 2}

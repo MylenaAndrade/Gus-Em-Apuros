@@ -41,27 +41,33 @@ public class PersonagemController : MonoBehaviour
 
     void FixedUpdate()
     {
-    if (EntradaBloqueada.tecladoBloqueado || movimentoAutomatico) return;
-    if (dialogoUI.estaAberto) return;
+        if (EntradaBloqueada.tecladoBloqueado || movimentoAutomatico) return;
+        if (dialogoUI.estaAberto) return;
 
-    personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        personagemDirecao = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-    if (personagemDirecao.sqrMagnitude > 0.1)
-    {
-        animator.SetFloat("AxisX", personagemDirecao.x);
-        animator.SetFloat("AxisY", personagemDirecao.y);
-        animator.SetInteger("Movement", 1);
-    }
-    else
-    {
-        animator.SetInteger("Movement", 0);
+        if (personagemDirecao.sqrMagnitude > 0.1)
+        {
+            animator.SetFloat("AxisX", personagemDirecao.x);
+            animator.SetFloat("AxisY", personagemDirecao.y);
+            animator.SetInteger("Movement", 1);
+        }
+        else
+        {
+            animator.SetInteger("Movement", 0);
+        }
+
+        if (nomeCenaAtual != "Floresta1")
+        {
+            personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
+        }
     }
 
-    if (nomeCenaAtual != "Floresta1")
+    public void gusVelocidade(float gusVelocidade)
     {
-        personagemRigidbody2D.MovePosition(personagemRigidbody2D.position + personagemDirecao * personagemVelocidade * Time.fixedDeltaTime);
+        personagemVelocidade = gusVelocidade;
     }
-}
+
 
 
     void Flip()

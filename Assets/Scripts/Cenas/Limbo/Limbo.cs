@@ -5,6 +5,7 @@ public class Limbo : MonoBehaviour
 {
     [SerializeField] private GameObject canvasDeInteracao;
     [SerializeField] private Light2D luz;
+    [SerializeField] private GameObject objeto; // Referência ao objeto que será ativado
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class Limbo : MonoBehaviour
             if (luz != null)
             {
                 luz.enabled = true;
+                objeto.SetActive(false);
                 Debug.Log("Luz ativada!");
             }
             else

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Cidade2
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: '[Two]: 3...2...1..'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: 3...2...1..
+  - _identificador: '[Two]: Oba, eu sabia que isso aqui ia aparecer.'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Oba, eu sabia que isso aqui ia aparecer.
+  - _identificador: "[Gus]: Caramba! Como voc\xEA sabia?"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Caramba! Como voc\xEA sabia?"
+  - _identificador: "[Two]: Eu imaginei, por causa do que aconteceu l\xE1 na Biblioteca."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Eu imaginei, por causa do que aconteceu l\xE1 na Biblioteca."
+  - _identificador: "[Gus]: Uau voc\xEA \xE9 realmente incr\xEDvel Two. Mas afinal,
+      qual \xE9 o cap\xEDtulo que recuperamos?"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Uau voc\xEA \xE9 realmente incr\xEDvel Two. Mas afinal, qual \xE9 o
+      cap\xEDtulo que recuperamos?"
+  - _identificador: "[Two]: Acredito que seja o Cap\xEDtulo de Instru\xE7\xF5es da
+      CPU do Livro Sistema Operacional."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Acredito que seja o Cap\xEDtulo de Instru\xE7\xF5es da CPU do Livro
+      Sistema Operacional."
+  - _identificador: "[Gus]: Acho que a prefeita vai ficar feliz em saber n\xE9?"
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Acho que a prefeita vai ficar feliz em saber n\xE9?"
+  - _identificador: '[Two]: Vai e muito! Vamos nessa ainda temos muitos lugares para
+      recuperar.'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: Vai e muito! Vamos nessa ainda temos muitos lugares para recuperar.
+  respostas: []
+  indicesQueAtivamTimeline: 00000000
+  indicesQueAtivamObjetos: 

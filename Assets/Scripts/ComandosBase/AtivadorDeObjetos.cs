@@ -5,10 +5,11 @@ using Vector2 = UnityEngine.Vector2;
 public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
 {
     [SerializeField] private GameObject aperteE;
-    public enum TipoInteracao { PerguntasCaverna, Porta }
+    public enum TipoInteracao { PerguntasCaverna, Porta, irParaFloresta }
     [SerializeField] private TipoInteracao tipoInteracao;
     [SerializeField] private GameObject objeto;
     [SerializeField] private string nomeProximaFase;
+    [SerializeField] private TimelineController controladorTimeline;
 
     private GameObject objetoArmazenado;
 
@@ -52,6 +53,9 @@ public class AtivadorDeObjetos : MonoBehaviour, IInteracaoObjeto
                 break;
             case TipoInteracao.Porta:
                 AvancarCena.IrProximaFase(nomeProximaFase);
+                break;
+            case TipoInteracao.irParaFloresta:
+                controladorTimeline.IniciarTimeline();
                 break;
         }
 

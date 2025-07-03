@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Cidade3
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: "[Two]: Se a gente continuar desse jeito rapidinho tudo estar\xE1
+      em ordem."
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Se a gente continuar desse jeito rapidinho tudo estar\xE1 em ordem."
+  - _identificador: '[Gus]: E eu voltarei para a minha amada Myla.'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: E eu voltarei para a minha amada Myla.
+  - _identificador: "[Mister Bug]: N\xE3o se eu puder evitar, queridinhos."
+    _ator: {fileID: 11400000, guid: 30f5a812bab0e8747bf18aea2af21ca2, type: 2}
+    _texto: "N\xE3o se eu puder evitar, queridinhos."
+  respostas:
+  - textoResposta: SOCORRO! TWO! PREFEITAA...
+    objetoDialogo: {fileID: 0}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 02000000

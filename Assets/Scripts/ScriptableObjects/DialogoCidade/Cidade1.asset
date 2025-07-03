@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1566b741d35535242b814fa5688eafcd, type: 3}
+  m_Name: Cidade1
+  m_EditorClassIdentifier: 
+  dialogo:
+  - _identificador: '[Gus]: ...'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: ...
+  - _identificador: '[Two]: O que foi?'
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: O que foi?
+  - _identificador: "[Gus]: \xC9... Tenho que admitir n\xE3o foi t\xE3o dif\xEDcil."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "\xC9... Tenho que admitir n\xE3o foi t\xE3o dif\xEDcil."
+  - _identificador: "[Two]: Viu, eu falei que voc\xEA conseguiria!"
+    _ator: {fileID: 11400000, guid: b158294499fe4304ab191a7d74370246, type: 2}
+    _texto: "Viu, eu falei que voc\xEA conseguiria!"
+  respostas:
+  - textoResposta: Mas e agora o que a gente faz?
+    objetoDialogo: {fileID: 11400000, guid: 43ec0fea4ecc93e4d9c76beaf5f200cc, type: 2}
+  indicesQueAtivamTimeline: 
+  indicesQueAtivamObjetos: 

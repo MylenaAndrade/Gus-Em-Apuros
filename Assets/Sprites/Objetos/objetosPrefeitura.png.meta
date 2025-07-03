@@ -202,7 +202,7 @@ TextureImporter:
         width: 52
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,6 +210,27 @@ TextureImporter:
       bones: []
       spriteID: 31f09063bfa930042bb0adcccffc85b2
       internalID: -292011478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: objetosPrefeitura_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 90
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5933aaf12bf8949a16ed8fe853f2a8
+      internalID: -979743402
       vertices: []
       indices: 
       edges: []
@@ -230,6 +251,7 @@ TextureImporter:
       objetosPrefeitura_2: -868419574
       objetosPrefeitura_3: 940490916
       objetosPrefeitura_4: -292011478
+      objetosPrefeitura_5: -979743402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

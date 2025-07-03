@@ -193,6 +193,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7143105a6e260b44faf39e3fd482bf80
+      internalID: -1006909885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211c3ad874c0c6144ae4693da56fdbe2
+      internalID: 1995305939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 40
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9274d0d28d08e254bb0f401127369f2b
+      internalID: -1238726184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 40
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9959049bedf102c44957e39af07128a1
+      internalID: 80860608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 18
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a54453dc4609428e9505dd214f757
+      internalID: 142385717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845e937540856645813e59381de44dc
+      internalID: 1089166033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f388bf8b24466e34a86cdd149d1d9c6e
+      internalID: 615988370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrefeitaCPU_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 9
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35008443efae49941b3fb44f13220ed7
+      internalID: 428953221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -206,8 +374,16 @@ TextureImporter:
     nameFileIdTable:
       PrefeitaCPU_0: -708771537
       PrefeitaCPU_1: -1430605335
+      PrefeitaCPU_10: 615988370
+      PrefeitaCPU_11: 428953221
       PrefeitaCPU_2: 1781134252
       PrefeitaCPU_3: -2011403342
+      PrefeitaCPU_4: -1006909885
+      PrefeitaCPU_5: 1995305939
+      PrefeitaCPU_6: -1238726184
+      PrefeitaCPU_7: 80860608
+      PrefeitaCPU_8: 142385717
+      PrefeitaCPU_9: 1089166033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
