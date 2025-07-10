@@ -27,14 +27,14 @@ MonoBehaviour:
     _texto: "Isso mesmo docinho, SOU EUU. Agora sobre o seu amiguinho voc\xEA nunca
       o ver\xE1 novamente."
   - _identificador: "[Mister Bug]: J\xE1 que voc\xEA NUNCA sair\xE1 daqui. A Floresta
-      Algoritmica ser\xE1 sua pris\xE3o."
+      Algor\xEDtmica ser\xE1 sua pris\xE3o."
     _ator: {fileID: 11400000, guid: 30f5a812bab0e8747bf18aea2af21ca2, type: 2}
-    _texto: "J\xE1 que voc\xEA NUNCA sair\xE1 daqui. A Floresta Algoritmica ser\xE1
+    _texto: "J\xE1 que voc\xEA NUNCA sair\xE1 daqui. A Floresta Algor\xEDtmica ser\xE1
       sua pris\xE3o."
   - _identificador: "[Mister Bug]: Agora se voc\xEA me d\xE1 licen\xE7a chuchu, tenho
-      que ir ainda tenho muitos lugares para infectar."
+      que ir. Ainda tenho muitos lugares para infectar."
     _ator: {fileID: 11400000, guid: 30f5a812bab0e8747bf18aea2af21ca2, type: 2}
-    _texto: "Agora se voc\xEA me d\xE1 licen\xE7a chuchu, tenho que ir ainda tenho
+    _texto: "Agora se voc\xEA me d\xE1 licen\xE7a chuchu, tenho que ir. Ainda tenho
       muitos lugares para infectar."
   - _identificador: "[Gus]: Volta aqui seu man\xE9z\xE3o!!"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
@@ -43,27 +43,26 @@ MonoBehaviour:
       eu vou fazer agora?"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Eu n\xE3o acredito, eu n\xE3o consigo me mexer. O que eu vou fazer agora?"
-  - _identificador: "[Gus]: Pera... O mister bug comentou que esta \xE9 a Floresta
+  - _identificador: "[Gus]: Pera... O Mister Bug comentou que esta \xE9 a Floresta
       Algor\xEDtmica?"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Pera... O mister bug comentou que esta \xE9 a Floresta Algor\xEDtmica?"
-  - _identificador: "[Gus]: Algor\xEDtimo. Eu j\xE1 escutei a Myla, falando disso
+    _texto: "Pera... O Mister Bug comentou que esta \xE9 a Floresta Algor\xEDtmica?"
+  - _identificador: "[Gus]: Algor\xEDtmo. Eu j\xE1 escutei a Myla, falando disso
       antes..."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Algor\xEDtimo. Eu j\xE1 escutei a Myla, falando disso antes..."
+    _texto: "Algor\xEDtmo. Eu j\xE1 escutei a Myla, falando disso antes..."
   - _identificador: "[Gus]: Lembro que ela disse que s\xE3o instru\xE7\xF5es, que
       podem ser dadas ao computador."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Lembro que ela disse que s\xE3o instru\xE7\xF5es, que podem ser dadas
       ao computador."
-  - _identificador: "[Gus]: E se eu tentasse dar instru\xE7\xF5es inv\xE9s de apenas
-      andar? O que custa tentar n\xE9?"
+  - _identificador: "[Gus]: E se eu tentasse dar instru\xE7\xF5es, inv\xE9s de apenas
+      andar?"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "E se eu tentasse dar instru\xE7\xF5es inv\xE9s de apenas andar? O que
-      custa tentar n\xE9?"
-  - _identificador: "[Gus]: Vamos l\xE1!"
+    _texto: "E se eu tentasse dar instru\xE7\xF5es, inv\xE9s de apenas andar?"
+  - _identificador: "[Gus]: O que custa tentar n\xE9? Vamos l\xE1!"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Vamos l\xE1!"
+    _texto: "O que custa tentar n\xE9? Vamos l\xE1!"
   respostas:
   - textoResposta: Mover para cima
     objetoDialogo: {fileID: 11400000, guid: 83abdbfbf5697b7409cfc004b80a42be, type: 2}

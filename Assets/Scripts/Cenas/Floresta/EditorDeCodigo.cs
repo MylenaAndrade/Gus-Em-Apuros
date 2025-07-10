@@ -12,6 +12,7 @@ public class EditorDeCodigo : MonoBehaviour
     [SerializeField] private Transform personagem; // Referência ao personagem
     [SerializeField] private float distanciaMovimento = 1f;
     [SerializeField] private float intervaloMovimento = 0.5f;
+    [SerializeField] private GameObject aviso;
     public bool chegouNoFim = false;
     public bool colidiuComObstaculo = false;
 
@@ -22,6 +23,8 @@ public class EditorDeCodigo : MonoBehaviour
     public DialogoUI DialogoUI => dialogoUI;
     private Rigidbody2D personagemRb;
 
+    private Vector3 posicaoOriginal;
+
 
     public void ComandoDireita() => AdicionarComando("MoverParaDireita");
     public void ComandoEsquerda() => AdicionarComando("MoverParaEsquerda");
@@ -30,7 +33,7 @@ public class EditorDeCodigo : MonoBehaviour
 
     private void Start()
     {
-        Vector3 posicaoOriginal = personagem.position;
+        posicaoOriginal = personagem.position;
         personagemRb = personagem.GetComponent<Rigidbody2D>();
 
     }
@@ -76,7 +79,7 @@ public class EditorDeCodigo : MonoBehaviour
         if (controller != null) controller.movimentoAutomatico = true;
 
         // 1. Salvar posição original
-        Vector3 posicaoOriginal = personagem.position;
+        //Vector3 posicaoOriginal = personagem.position;
 
         chegouNoFim = false;
         colidiuComObstaculo = false;
@@ -107,9 +110,11 @@ public class EditorDeCodigo : MonoBehaviour
             }
             else if (colidiuComObstaculo)
             {
+                aviso.SetActive(true);
                 Debug.Log("Execução interrompida por obstáculo.");
                 break;
             }
+            aviso.SetActive(false);
         }
 
         yield return new WaitForSeconds(0.5f);

@@ -18,11 +18,11 @@ MonoBehaviour:
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Nem acredito que funcionou. Agoras s\xF3 tenho que lembrar algo importante
       que a Myla falava sobre os algor\xEDtmos..."
-  - _identificador: "[Gus]: Ae verdade, eu preciso dar instru\xE7\xF5es de movimento
-      sequenciais e precisas para que eu consiga sair daqui."
+  - _identificador: "[Gus]: Ae verdade, para que funcione eu preciso dar instru\xE7\xF5es
+      de movimento sequenciais e precisas."
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
-    _texto: "Ae verdade, eu preciso dar instru\xE7\xF5es de movimento sequenciais
-      e precisas para que eu consiga sair daqui."
+    _texto: "Ae verdade, para que funcione eu preciso dar instru\xE7\xF5es de movimento
+      sequenciais e precisas."
   - _identificador: "[Gus]: Agora s\xF3 preciso sair daqui o mais r\xE1pido poss\xEDvel!
       Bora l\xE1"
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}

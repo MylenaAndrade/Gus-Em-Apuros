@@ -8,6 +8,7 @@ public class Chegada : MonoBehaviour
 {
     //[SerializeField] private string nomeCena;
     [SerializeField] private EditorDeCodigo editor;
+    [SerializeField] private GameObject personagem;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
