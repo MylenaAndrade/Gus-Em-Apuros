@@ -1364,8 +1364,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.9375, y: 1}
+  m_Offset: {x: 0, y: 0.03125}
+  m_Size: {x: 0.9375, y: 0.9375}
   m_Direction: 0
 --- !u!1 &182795211
 GameObject:
@@ -1640,9 +1640,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.22565213}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 0.5446273
 --- !u!1 &358800794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2966,9 +2966,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.18490553}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 0.5650945
 --- !u!1 &816348222
 GameObject:
   m_ObjectHideFlags: 0
@@ -7214,9 +7214,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.23113203}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 0.51886797
 --- !u!1 &1295067873
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,8 +7789,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.121684544, y: 0.012897894}
-  m_Size: {x: 0.8389869, y: 1.0066409}
+  m_Offset: {x: -0.14415662, y: -0.035989694}
+  m_Size: {x: 0.7041544, y: 0.9577533}
   m_Direction: 0
 --- !u!50 &1382255824
 Rigidbody2D:
@@ -8460,8 +8460,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.9375, y: 1}
+  m_Offset: {x: 0, y: 0.14681625}
+  m_Size: {x: 0.9375, y: 0.9375}
   m_Direction: 0
 --- !u!1 &1659596409
 GameObject:
@@ -9927,9 +9927,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.1617924}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 0.5882076
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

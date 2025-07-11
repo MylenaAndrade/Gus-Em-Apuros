@@ -4945,7 +4945,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1052898434}
         m_TargetAssemblyTypeName: TabelaVerdade, Assembly-CSharp
         m_MethodName: Esconder
         m_Mode: 1

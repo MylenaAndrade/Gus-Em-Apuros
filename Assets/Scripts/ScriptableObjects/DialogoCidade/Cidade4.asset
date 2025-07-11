@@ -29,21 +29,37 @@ MonoBehaviour:
     _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: "Quem \xE9 Juju gente?"
   - _identificador: "[Pref\xAA CPU]: Minha joaninha de estima\xE7\xE3o, o meu xod\xF3.
-      Acredito que Mister Bug saiba disso, por isso que levou ela."
+      Acredito que o Mister Bug saiba disso, por isso que levou ela."
     _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
-    _texto: "Minha joaninha de estima\xE7\xE3o, o meu xod\xF3. Acredito que Mister
+    _texto: "Minha joaninha de estima\xE7\xE3o, o meu xod\xF3. Acredito que o Mister
       Bug saiba disso, por isso que levou ela."
-  - _identificador: "[Pref\xAA CPU]: E levou o Two porqu\xEA sabe que Two estava
+  - _identificador: "[Pref\xAA CPU]: E levou o Two porqu\xEA sabe que ele estava
       te ajudando a deixar o mundo novamente em equil\xEDbrio."
     _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
-    _texto: "E levou o Two porqu\xEA sabe que Two estava te ajudando a deixar o mundo
+    _texto: "E levou o Two porqu\xEA sabe que ele estava te ajudando a deixar o mundo
       novamente em equil\xEDbrio."
-  - _identificador: "[Pref\xAA CPU]: Mas e para onde o Mister Bug os levou?"
-    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
+  - _identificador: '[Gus]: Mas e para onde o Mister Bug os levou?'
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
     _texto: Mas e para onde o Mister Bug os levou?
-  - _identificador: "[Pref\xAA CPU]: Mas e para onde o Mister Bug os levou?"
-    _ator: {fileID: 11400000, guid: 045ab3b01269f274f9ba22ee93154297, type: 2}
-    _texto: Mas e para onde o Mister Bug os levou?
-  respostas: []
+  - _identificador: "[Sra. HD]: Era isso que est\xE1vamos falando antes de voc\xEA
+      chegar..."
+    _ator: {fileID: 11400000, guid: a8622fdb74e48bc498a1738dd5e2a474, type: 2}
+    _texto: "Era isso que est\xE1vamos falando antes de voc\xEA chegar..."
+  - _identificador: "[SSD]: Ningu\xE9m sabe Gus. E n\xF3s n\xE3o temos como ajudar
+      eles, estamos perdido..."
+    _ator: {fileID: 11400000, guid: 0bf94c488772c394c86a5d90fcf9709f, type: 2}
+    _texto: "Ningu\xE9m sabe Gus. E n\xF3s n\xE3o temos como ajudar eles, estamos
+      perdido..."
+  - _identificador: "[Gus]: N\xE3o podemos deixar isso desse jeito, voc\xEAs t\xEAm
+      a mim..."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "N\xE3o podemos deixar isso desse jeito, voc\xEAs t\xEAm a mim..."
+  - _identificador: "[Gus]: Eu vou atr\xE1s do Mister Bug, vou salvar nossos amigos
+      e o mundo."
+    _ator: {fileID: 11400000, guid: fa8c2228da5c1dc4e84faeb839e0d716, type: 2}
+    _texto: "Eu vou atr\xE1s do Mister Bug, vou salvar nossos amigos e o mundo."
+  respostas:
+  - textoResposta: Two me espere, eu vou te salvar amigo...
+    objetoDialogo: {fileID: 0}
   indicesQueAtivamTimeline: 
   indicesQueAtivamObjetos: 

@@ -2454,6 +2454,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &856840948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856840950}
+  - component: {fileID: 856840949}
+  m_Layer: 0
+  m_Name: AvancarCena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &856840949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856840948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3b9c179cc702a4ab42eef0944c3419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeProximaFase: Fim
+--- !u!4 &856840950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856840948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4192052, y: 5.840564, z: 0.0018840344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &881561865
 GameObject:
   m_ObjectHideFlags: 0
@@ -23430,6 +23475,7 @@ GameObject:
   - component: {fileID: 1924741922}
   - component: {fileID: 1924741921}
   - component: {fileID: 1924741923}
+  - component: {fileID: 1924741924}
   m_Layer: 0
   m_Name: PrefeitaCPU_0
   m_TagString: Untagged
@@ -23617,8 +23663,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffc4e5058dda2d4fa6e3e8b95fa3867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetoDialogo: {fileID: 0}
+  objetoDialogo: {fileID: 11400000, guid: 67f20d018b4b1254bb95f021d27e0d8c, type: 2}
   aperteE: {fileID: 3606026315814754721, guid: 99e6db7c820245941baaa69073666543, type: 3}
+--- !u!114 &1924741924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924741917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4beae9a270aa0994aa7c0774a5fe70d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetoDialogo: {fileID: 0}
+  eventos: []
 --- !u!1 &1932887711
 GameObject:
   m_ObjectHideFlags: 0
@@ -24656,3 +24716,4 @@ SceneRoots:
   - {fileID: 1924741920}
   - {fileID: 1819238640}
   - {fileID: 570647384}
+  - {fileID: 856840950}
