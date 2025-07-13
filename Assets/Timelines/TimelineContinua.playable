@@ -780,7 +780,7 @@ MonoBehaviour:
     m_Start: 3.3833333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -6578583157589256161}
-    m_Duration: 8.100000000000007
+    m_Duration: 7.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: 870357730019871253}
     m_EaseInDuration: 0
@@ -846,10 +846,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 3.3833333333333333
     m_DisplayName: MylaAndando
   - m_Version: 1
-    m_Start: 11.48333333333334
+    m_Start: 10.883333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 3412251186502927972}
-    m_Duration: 5.999999999999995
+    m_Duration: 6.000000000000002
     m_TimeScale: 1
     m_ParentTrack: {fileID: 870357730019871253}
     m_EaseInDuration: 0
@@ -1095,10 +1095,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 4.233333
-        value: -1013
+        time: 3.85
+        value: -1017
         inSlope: 0
         outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4.233333
+        value: -1013
+        inSlope: 20.425533
+        outSlope: 20.425533
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -1317,10 +1326,19 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 4.233333
-        value: -1013
+        time: 3.85
+        value: -1017
         inSlope: 0
         outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 4.233333
+        value: -1013
+        inSlope: 20.425533
+        outSlope: 20.425533
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
